@@ -1,0 +1,341 @@
+.btn-alert {
+  background: #f6354c;
+  border: none;
+  border-radius: 0.3rem;
+  box-shadow: none;
+  color: #fff;
+  cursor: pointer;
+  font-size: 1.4rem;
+  font-weight: 400;
+  padding: 0.8em 2.5em;
+  text-transform: uppercase;
+  transition: all 0.15s ease;
+}
+.btn-alert:active {
+  background: #f6354c;
+}
+.btn-alert:disabled {
+  background: #fa96a3;
+  pointer-events: none;
+}
+.btn-alert:focus {
+  background: #f6354c;
+  color: #fff;
+  outline: none;
+}
+.btn-alert:hover {
+  background: #f86578;
+  color: #fff;
+  text-decoration: none;
+}
+.btn-alert.block {
+  display: block;
+  padding: 1.2rem 4rem;
+  width: 100%;
+}
+.btn-alert.big {
+  padding: 1.1em 3em;
+}
+.btn-alert.dimmed {
+  background: #f86578;
+}
+.btn-alert.dimmed:hover {
+  background: #f6354c;
+}
+.btn-alert.outline {
+  background: transparent;
+  border: 0.2rem solid #354c51;
+  color: #354c51;
+}
+.btn-alert.outline:hover {
+  color: #fff;
+  background: #f6354c;
+  border: 0.2rem solid #f6354c;
+}
+.btn-alert.outline.small {
+  border: 0.1rem solid #354c51;
+}
+.btn-alert.outline.small:hover {
+  border: 0.1rem solid #f6354c;
+}
+.btn-alert.small {
+  font-size: 1rem;
+  padding: 0.8rem 1.4rem 0.7rem 1.4rem;
+}
+.btn-alert .sub {
+  font-weight: 300;
+  letter-spacing: 0.1rem;
+}
+.btn-close {
+  background: #838383;
+  border: none;
+  border-radius: 0.3rem;
+  box-shadow: none;
+  color: #fff;
+  cursor: pointer;
+  font-size: 1.4rem;
+  font-weight: 400;
+  padding: 0.8em 2.5em;
+  text-transform: uppercase;
+  transition: all 0.15s ease;
+}
+.btn-close:active {
+  background: #838383;
+}
+.btn-close:disabled {
+  background: #b6b6b6;
+  pointer-events: none;
+}
+.btn-close:focus {
+  background: #838383;
+  color: #fff;
+  outline: none;
+}
+.btn-close:hover {
+  background: #9d9d9d;
+  color: #fff;
+  text-decoration: none;
+}
+.btn-close.block {
+  display: block;
+  padding: 1.2rem 4rem;
+  width: 100%;
+}
+.btn-close.big {
+  padding: 1.1em 3em;
+}
+.btn-close.dimmed {
+  background: #9d9d9d;
+}
+.btn-close.dimmed:hover {
+  background: #838383;
+}
+.btn-close.outline {
+  background: transparent;
+  border: 0.2rem solid #354c51;
+  color: #354c51;
+}
+.btn-close.outline:hover {
+  color: #fff;
+  background: #838383;
+  border: 0.2rem solid #838383;
+}
+.btn-close.outline.small {
+  border: 0.1rem solid #354c51;
+}
+.btn-close.outline.small:hover {
+  border: 0.1rem solid #838383;
+}
+.btn-close.small {
+  font-size: 1rem;
+  padding: 0.8rem 1.4rem 0.7rem 1.4rem;
+}
+.btn-close .sub {
+  font-weight: 300;
+  letter-spacing: 0.1rem;
+}
+.btn-default {
+  background: #354c51;
+  border: none;
+  border-radius: 0.3rem;
+  box-shadow: none;
+  color: #fff;
+  cursor: pointer;
+  font-size: 1.4rem;
+  font-weight: 400;
+  padding: 0.8em 2.5em;
+  text-transform: uppercase;
+  transition: all 0.15s ease;
+}
+.btn-default:active {
+  background: #354c51;
+}
+.btn-default:disabled {
+  background: #5d878e;
+  pointer-events: none;
+}
+.btn-default:focus {
+  background: #354c51;
+  color: #fff;
+  outline: none;
+}
+.btn-default:hover {
+  background: #496a6f;
+  color: #fff;
+  text-decoration: none;
+}
+.btn-default.block {
+  display: block;
+  padding: 1.2rem 4rem;
+  width: 100%;
+  margin: auto;
+}
+.btn-default.big {
+  padding: 1.1em 3em;
+}
+.btn-default.dimmed {
+  background: #496a6f;
+}
+.btn-default.dimmed:hover {
+  background: #354c51;
+}
+.btn-default.outline {
+  background: transparent;
+  border: 0.2rem solid #354c51;
+  color: #354c51;
+}
+.btn-default.outline:hover {
+  color: #fff;
+  background: #354c51;
+  border: 0.2rem solid #354c51;
+}
+.btn-default.outline.small {
+  border: 0.1rem solid #354c51;
+}
+.btn-default.outline.small:hover {
+  border: 0.1rem solid #354c51;
+}
+.btn-default.small {
+  font-size: 1rem;
+  padding: 0.8rem 1.4rem 0.7rem 1.4rem;
+}
+.btn-default .sub {
+  font-weight: 300;
+  letter-spacing: 0.1rem;
+}
+.btn-secondary {
+  background: #d0dadf;
+  border: none;
+  border-radius: 0.3rem;
+  box-shadow: none;
+  color: #fff;
+  cursor: pointer;
+  font-size: 1.4rem;
+  font-weight: 400;
+  padding: 0.8em 2.5em;
+  text-transform: uppercase;
+  transition: all 0.15s ease;
+}
+.btn-secondary:active {
+  background: #d0dadf;
+}
+.btn-secondary:disabled {
+  background: #ffffff;
+  pointer-events: none;
+}
+.btn-secondary:focus {
+  background: #d0dadf;
+  color: #fff;
+  outline: none;
+}
+.btn-secondary:hover {
+  background: #eef2f3;
+  color: #fff;
+  text-decoration: none;
+}
+.btn-secondary.block {
+  display: block;
+  padding: 1.2rem 4rem;
+  width: 100%;
+}
+.btn-secondary.big {
+  padding: 1.1em 3em;
+}
+.btn-secondary.dimmed {
+  background: #eef2f3;
+}
+.btn-secondary.dimmed:hover {
+  background: #d0dadf;
+}
+.btn-secondary.outline {
+  background: transparent;
+  border: 0.2rem solid #354c51;
+  color: #354c51;
+}
+.btn-secondary.outline:hover {
+  color: #fff;
+  background: #d0dadf;
+  border: 0.2rem solid #d0dadf;
+}
+.btn-secondary.outline.small {
+  border: 0.1rem solid #354c51;
+}
+.btn-secondary.outline.small:hover {
+  border: 0.1rem solid #d0dadf;
+}
+.btn-secondary.small {
+  font-size: 1rem;
+  padding: 0.8rem 1.4rem 0.7rem 1.4rem;
+}
+.btn-secondary .sub {
+  font-weight: 300;
+  letter-spacing: 0.1rem;
+}
+.btn-success {
+  background: #5ddba2;
+  border: none;
+  border-radius: 0.3rem;
+  box-shadow: none;
+  color: #fff;
+  cursor: pointer;
+  font-size: 1.4rem;
+  font-weight: 400;
+  padding: 0.8em 2.5em;
+  text-transform: uppercase;
+  transition: all 0.15s ease;
+}
+.btn-success:active {
+  background: #5ddba2;
+}
+.btn-success:disabled {
+  background: #b1eed2;
+  pointer-events: none;
+}
+.btn-success:focus {
+  background: #5ddba2;
+  color: #fff;
+  outline: none;
+}
+.btn-success:hover {
+  background: #87e5ba;
+  color: #fff;
+  text-decoration: none;
+}
+.btn-success.block {
+  display: block;
+  padding: 1.2rem 4rem;
+  width: 100%;
+}
+.btn-success.big {
+  padding: 1.1em 3em;
+}
+.btn-success.dimmed {
+  background: #87e5ba;
+}
+.btn-success.dimmed:hover {
+  background: #5ddba2;
+}
+.btn-success.outline {
+  background: transparent;
+  border: 0.2rem solid #354c51;
+  color: #354c51;
+}
+.btn-success.outline:hover {
+  color: #fff;
+  background: #5ddba2;
+  border: 0.2rem solid #5ddba2;
+}
+.btn-success.outline.small {
+  border: 0.1rem solid #354c51;
+}
+.btn-success.outline.small:hover {
+  border: 0.1rem solid #5ddba2;
+}
+.btn-success.small {
+  font-size: 1rem;
+  padding: 0.8rem 1.4rem 0.7rem 1.4rem;
+}
+.btn-success .sub {
+  font-weight: 300;
+  letter-spacing: 0.1rem;
+}
