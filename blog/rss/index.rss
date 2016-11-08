@@ -1,0 +1,895 @@
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" version="2.0"><channel><title>The Tapglue Blog</title><description>The latest and greatest on app growth and engineering.</description><link>http://localhost:2368/</link><generator>Ghost 0.11</generator><lastBuildDate>Tue, 08 Nov 2016 10:28:32 GMT</lastBuildDate><atom:link href="http://localhost:2368/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title>15 Social KPIs Every App Should Be Tracking</title><description>&lt;p&gt;&lt;img src="https://s5.postimg.io/4q7dzpqc7/Teaser.png" alt=""&gt;&lt;/p&gt;
+
+&lt;p&gt;If you google „Social Network KPIs“, you will get millions of links targeted mostly at social media managers and marketers. These resources provide a wide range of information to engage their users in platforms like Facebook, Twitter, Instagram and information on how to transform their communities into customers.&lt;/p&gt;
+
+&lt;p&gt;Nonetheless, there&lt;/p&gt;</description><link>http://localhost:2368/social-kpis/</link><guid isPermaLink="false">a0d7850d-f5cd-43c0-9f83-c8e7e56b5cea</guid><dc:creator>Rafael Aviles</dc:creator><pubDate>Wed, 28 Sep 2016 22:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;img src="https://s5.postimg.io/4q7dzpqc7/Teaser.png" alt=""&gt;&lt;/p&gt;
+
+&lt;p&gt;If you google „Social Network KPIs“, you will get millions of links targeted mostly at social media managers and marketers. These resources provide a wide range of information to engage their users in platforms like Facebook, Twitter, Instagram and information on how to transform their communities into customers.&lt;/p&gt;
+
+&lt;p&gt;Nonetheless, there are very few resources that target app developers and provide information on important KPIs that need to be tracked internally to understand the impact of social features on their app and take advantage of their benefits. &lt;/p&gt;
+
+&lt;p&gt;Social features provide a complete new level of insights for developers, that can help them tailor their products according to their users' needs, boost retention and make sure engagement is maximized. In this post we have created a list of the most important social KPIs for apps, in order to understand virality, user engagement and make sure you collect the right data to improve your product.&lt;/p&gt;
+
+&lt;h4 id="likes"&gt;Likes&lt;/h4&gt;
+
+&lt;h6 id="1likesperpost"&gt;1. Likes per Post&lt;/h6&gt;
+
+&lt;p&gt;This KPI will help you rank the user generated posts and understand which of them are most popular among your users.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="https://i.imgsafe.org/f77fce9e09.png" alt=""&gt;&lt;/p&gt;
+
+&lt;h6 id="2likesbycontenttype"&gt;2. Likes by Content Type&lt;/h6&gt;
+
+&lt;p&gt;Such a split gives you an understanding of which content users like the most. If a user likes more content of type “football” and less of type “politics”, you’ll be in a better position to personalize the feed accordingly.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="https://i.imgsafe.org/f78047c445.png" alt=""&gt;&lt;/p&gt;
+
+&lt;h4 id="connections"&gt;Connections&lt;/h4&gt;
+
+&lt;h6 id="3connectionsperuser"&gt;3. Connections per User&lt;/h6&gt;
+
+&lt;p&gt;The average number of connections per user, will tell you how connected your network is and also will help you identify the most influential users, that can help you grow your graph.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="https://i.imgsafe.org/f780871127.png" alt=""&gt;&lt;/p&gt;
+
+&lt;h6 id="4followerstofollowingratio"&gt;4. Followers-to-following Ratio&lt;/h6&gt;
+
+&lt;p&gt;This will help you have a cleaner way of identifying your influencers other than just using the number of people following them. The more followers and the higher this ratio, the more influential the user.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="https://i.imgsafe.org/f77f875479.png" alt=""&gt;&lt;/p&gt;
+
+&lt;h4 id="newsfeedengagement"&gt;News Feed Engagement&lt;/h4&gt;
+
+&lt;h6 id="5scrolledlength"&gt;5. Scrolled length&lt;/h6&gt;
+
+&lt;p&gt;This will tell you how much your users are consuming the content of your news feed directly from that screen. A fundamental KPI to predict ad impressions in your feed and choose the right position for your ad placements.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="https://i.imgsafe.org/f77fea6909.png" alt=""&gt;&lt;/p&gt;
+
+&lt;h6 id="6timespentonpost"&gt;6. Time Spent on Post&lt;/h6&gt;
+
+&lt;p&gt;&lt;a href="http://newsroom.fb.com/news/2016/04/news-feed-fyi-more-articles-you-want-to-spend-time-viewing/"&gt;Facebook announced recently&lt;/a&gt;, that they will be factoring in the time you spent on stories to rank content in the news feed. If you understand, which type of posts and stories your users are spending more time with, you’ll be able to achieve better personalization.&lt;/p&gt;
+
+&lt;h4 id="userinteractions"&gt;User Interactions&lt;/h4&gt;
+
+&lt;h6 id="7connectionweight"&gt;7. Connection Weight&lt;/h6&gt;
+
+&lt;p&gt;This is a more advanced KPI that allows you to understand the connections between your users. For each user for each connection, you can calculate a value that will tell you how strong the connection is. You can include profile views, connection date or 1-to-1 interactions. For instance if user A looks at user B’s profile 10 times more than at user C’s, then his connection weight with B will be substantially higher.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="https://i.imgsafe.org/f77f95abd4.png" alt=""&gt;&lt;/p&gt;
+
+&lt;h4 id="invites"&gt;Invites&lt;/h4&gt;
+
+&lt;h6 id="8invitesperuser"&gt;8. Invites per User&lt;/h6&gt;
+
+&lt;p&gt;If your users are not inviting their friends you won't have organic growth. Invites per users will help you understand first, if your users are inviting and second, which users are doing so.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="https://i.imgsafe.org/f77fb1b3df.png" alt=""&gt;&lt;/p&gt;
+
+&lt;h6 id="9platformsplit"&gt;9. Platform Split&lt;/h6&gt;
+
+&lt;p&gt;Understand which platform your users are inviting their friends through and promote it better than the others.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="https://i.imgsafe.org/f78052cb74.png" alt=""&gt;&lt;/p&gt;
+
+&lt;h6 id="10invitesconversion"&gt;10. Invites Conversion&lt;/h6&gt;
+
+&lt;p&gt;Make sure you know what is the conversion of the invites sent by your users. With deep linking, now you can personalize onboarding and improve the invitation funnel to increase this conversion.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="https://i.imgsafe.org/f77fdb1441.png" alt=""&gt;&lt;/p&gt;
+
+&lt;h4 id="comments"&gt;Comments&lt;/h4&gt;
+
+&lt;h6 id="11commentsperpost"&gt;11. Comments per Post&lt;/h6&gt;
+
+&lt;p&gt;Will help you understand which posts enhance discussions among your users and tailor the news feed accordingly.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="https://i.imgsafe.org/f7805d440e.png" alt=""&gt;&lt;/p&gt;
+
+&lt;h6 id="12commentsentiment"&gt;12. Comment Sentiment&lt;/h6&gt;
+
+&lt;p&gt;Understanding the sentiment (e.g negative, neutral, positive) of the users comments will give you more insights on how they view or prefer certain content.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="https://i.imgsafe.org/f77fa722a1.png" alt=""&gt;&lt;/p&gt;
+
+&lt;h4 id="sociallogin"&gt;Social Login&lt;/h4&gt;
+
+&lt;h6 id="13onboardingconversionbyplatform"&gt;13.Onboarding Conversion by Platform&lt;/h6&gt;
+
+&lt;p&gt;&lt;a href="https://www.tapglue.com/blog/what-77-say-is-the-solution-to-more-user-signups/"&gt;Social logins improve your singup conversion&lt;/a&gt;. Understanding which platform (Facebook, Twitter, etc.) has the highest share on your login, will allow you to push that platform to increase the onboarding conversion. It will also help you understand which &lt;a href="https://i.imgsafe.org/6148eba.png"&gt;data you have available&lt;/a&gt; from these platforms.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="https://i.imgsafe.org/f7807272f1.png" alt=""&gt;&lt;/p&gt;
+
+&lt;h4 id="outboundshares"&gt;Outbound Shares&lt;/h4&gt;
+
+&lt;h6 id="14sharesbyplatform"&gt;14. Shares by Platform&lt;/h6&gt;
+
+&lt;p&gt;Splitting the shares to other social media platforms will tell you which channel you should optimize to increase your virality.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="https://i.imgsafe.org/f7803c2553.png" alt=""&gt;&lt;/p&gt;
+
+&lt;h6 id="15sharesbycontenttype"&gt;15. Shares by Content Type&lt;/h6&gt;
+
+&lt;p&gt;Splitting the shares by content type will tell you which type of content is more likely to improve your virality.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="https://i.imgsafe.org/f77ff7b4aa.png" alt=""&gt;&lt;/p&gt;
+
+&lt;p&gt;Whether you have a social app or are planning to go become one, it is important to understand how the data you generate from social features, will help you create more actionable insights and increase personalization.&lt;/p&gt;
+
+&lt;p&gt;Make sure what you are tracking serves your goals too. Don’t get dragged into vanity metrics like downloads or monthly active users to measure the success of your social features. Collect what matters and don’t overengineer your analytics.&lt;/p&gt;</content:encoded></item><item><title>Why Friends Mean Power for Today’s Mobile Apps</title><description>&lt;p&gt;&lt;img src="https://i.imgsafe.org/fcc053b.png" alt="social graph teaser image" title=""&gt; &lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Did you know most apps lose &lt;a href="http://andrewchen.co/new-data-shows-why-losing-80-of-your-mobile-users-is-normal-and-that-the-best-apps-do-much-better/"&gt;90% of their daily active users&lt;/a&gt; within a month?&lt;/strong&gt; This is not a new statistic, but the response has evolved. Sure, app retention rates have always been abysmal. Push notifications, email marketing and retargeting were once seen as quick fixes, but the last year&lt;/p&gt;</description><link>http://localhost:2368/why-friends-mean-power-for-todays-mobile-apps/</link><guid isPermaLink="false">3e62a7f1-1359-44d2-9054-5a08440ffe36</guid><category>Product</category><dc:creator>Norman Wiese</dc:creator><pubDate>Wed, 14 Sep 2016 14:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;img src="https://i.imgsafe.org/fcc053b.png" alt="social graph teaser image" title=""&gt; &lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Did you know most apps lose &lt;a href="http://andrewchen.co/new-data-shows-why-losing-80-of-your-mobile-users-is-normal-and-that-the-best-apps-do-much-better/"&gt;90% of their daily active users&lt;/a&gt; within a month?&lt;/strong&gt; This is not a new statistic, but the response has evolved. Sure, app retention rates have always been abysmal. Push notifications, email marketing and retargeting were once seen as quick fixes, but the last year has shown a consistently successful method to increase app usage and engagement: going social. &lt;/p&gt;
+
+&lt;p&gt;In 2016, the term “social” may feel like an outdated buzzword uttered by the ghosts of tech past, like Farmville, but social continues to pay off in dynamic new ways. &lt;strong&gt;Social means creating connections among people, which in turn attracts quality users and bestows inherent virality.&lt;/strong&gt; &lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;The Power of Network Effects&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Traditionally, the concept of network effects is defined as a situation where a service, or product (e.g. app) becomes more valuable as more people use it. Every time a new user signs up for an app, it increases the value for all users and fosters a stronger sense of community.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Creating a social graph in the app, where users can view and connect with friends, is one way to harness the power of network effects and increase the stickiness of the app.&lt;/strong&gt; The quantity and quality of connections creates a lock-in effect for the user. For example, if a person uses a sports app and is able to connect with ten of their closest friends, then they’re less likely to switch to a competitor app that doesn’t yet have that social graph with their connections.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;These ten friends are meaningful reasons to come back to the app over and over again, creating a strong virtuous loop that drives product growth.&lt;/strong&gt; &lt;/p&gt;
+
+&lt;p&gt;&lt;a href="http://news.greylock.com/the-hierarchy-of-engagement-5803bf4e6cfa?_hsenc=p2ANqtz-_dd2lfIP2835GF2xgE31LpcVknYqgg5LWwaTFLL9LLt2KdK6C8kY0JC4ArRGs2dx02tiZ1gd3QFLKxYDROrVwCAt0F8A&amp;amp;_hsmi=27692291#.mjqchozf0"&gt;&lt;img src="https://i.imgsafe.org/65052de.jpeg" alt="virtuous loop image" title="virtuous loop image"&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;The ability to check out their achievements, likes, and comments, reels the user back in, while encouraging them to invite more friends to join the app. The more actively engaged friends a user has, the better the overall experience.&lt;/p&gt;
+
+&lt;p&gt;One app tapping into the advantages of network effects to improve the user experience is the giant dating app, Tinder. &lt;a href="http://blog.gotinder.com/introducing-tinder-social/"&gt;The company announced&lt;/a&gt; last week that it’s testing a new social feature that automatically displays which Facebook friends are also using the app. The new “friend-finding” feature called Tinder Social offers users a new shared experience that could ultimately drive more users and growth for the company.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;This concept of creating a more “network-centric” experience for users in order to create strong virtuous loops is something we’ve seen many vertical social networks doing to improve user retention and drive growth.&lt;/strong&gt; &lt;/p&gt;
+
+&lt;p&gt;&lt;a href="http://mashable.com/2015/06/29/shazam-social/#6PixA38ztaqY"&gt;Shazam&lt;/a&gt;, the song identifying app, announced social features to transition the experience from “pure discovery” to “shared discovery,” enabling artists to share music with their followers.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="https://i.imgsafe.org/773297e.png" alt="Shazam image" title=""&gt;  &lt;/p&gt;
+
+&lt;p&gt;&lt;a href="http://techcrunch.com/2015/05/21/quizup-just-turned-into-a-social-network/#.b7ghz7:0Az3"&gt;QuizUp&lt;/a&gt;, the insanely popular trivia game app, introduced true social functionality on a core level. With the features released in May, users can view other users’ profiles, check out their interests, follow them, play against them, send direct messages, or find a specific type of user through the people search.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="https://i.imgsafe.org/dba0322.png" alt="QuizUp"&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="https://getpocket.com/blog/2015/12/introducing-a-more-personal-recommended-feed/"&gt;Pocket&lt;/a&gt;, the reading app, rolled out a recommendation feature in December, that enables users to follow friends, tastemakers, and the writers and editors behind the stories, to see what they publicly recommend. These curated stories add a layer of trust and relevance to the app experience. When someone you know and trust recommends an article, you are more likely to read it.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="https://i.imgsafe.org/746d153.png" alt="Pocket image"&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;In 2016, the term “social” has evolved to mean creating a network of your own, connecting users inside the app’s landscape.&lt;/strong&gt; Retention, engagement and virality still come down to network effects: If I am connected to my friends, I will come back frequently, and engage with more content. “Social” is not just a buzzword. Turning apps into social products is a proven, viable way to create value for both the app developer and the end user. &lt;/p&gt;
+
+&lt;p&gt;Tapglue was created as a way to add social features to your app almost instantly, encouraging users to signup and return daily (even hourly). If you’re looking to turn your app into a social network and make it hard for your users to leave your app, then &lt;a href="https://www.tapglue.com/demo/"&gt;schedule a demo&lt;/a&gt; with us today!&lt;/p&gt;</content:encoded></item><item><title>What 77% Say Is the Solution to More User Signups</title><description>&lt;p&gt;&lt;img src="http://i.imgsafe.org/9070633.png" alt="social signups"&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;It’s a jungle out there.&lt;/strong&gt; Everyone from the world’s largest companies to students in their parents’ basement have put out an app. No longer is a “cool” idea enough to survive the pitfalls, threats and competition that lurk around each corner. The entire user experience has to be&lt;/p&gt;</description><link>http://localhost:2368/what-77-say-is-the-solution-to-more-user-signups/</link><guid isPermaLink="false">4d78b07d-4872-473f-99eb-014f5356d5ae</guid><category>Product</category><dc:creator>Rafael Aviles</dc:creator><pubDate>Mon, 15 Aug 2016 14:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;img src="http://i.imgsafe.org/9070633.png" alt="social signups"&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;It’s a jungle out there.&lt;/strong&gt; Everyone from the world’s largest companies to students in their parents’ basement have put out an app. No longer is a “cool” idea enough to survive the pitfalls, threats and competition that lurk around each corner. The entire user experience has to be positive starting from the very first entry point - the login. &lt;/p&gt;
+
+&lt;p&gt;In 2016, mobile users are expecting the convenience of the social login. They’re exhausted or simply maxed out on usernames and passwords. The social login gives users the ability to register on your website or app using their social media credentials from sites like Facebook or LinkedIn. &lt;a href="http://www.webhostingbuzz.com/blog/2013/03/21/whos-sharing-what/"&gt;Data has shown that&lt;/a&gt; &lt;strong&gt;86% of people are bothered by having to create a new login for each website. 77% say that the social login is a good solution.&lt;/strong&gt; &lt;/p&gt;
+
+&lt;p&gt;Out of all the social login options being offered today, Facebook is the clear frontrunner with it being used over &lt;a href="http://newsroom.fb.com/news/2014/04/f8-introducing-anonymous-login-and-an-updated-facebook-login/"&gt;10 billion times&lt;/a&gt; in 2013 alone. &lt;strong&gt;69% of global internet users are applying it to login to a website as of the&lt;/strong&gt; &lt;a href="http://www.statista.com/statistics/459601/preferred-social-login-id-global/"&gt;4th quarter of 2015&lt;/a&gt;. Other social networks didn’t even come close with Google Plus trailing behind with 25% of users applying it to login to a website or app. &lt;/p&gt;
+
+&lt;p&gt;The power is in the simplicity of the social login for the user, but where does the power lie for business owners? How does the social login make you a better business?&lt;/p&gt;
+
+&lt;p&gt;Account creation is one of the most important steps in the conversion funnel. Getting the registration experience right benefits business owners in several ways, including:&lt;/p&gt;
+
+&lt;h4 id="increasedconversions"&gt;Increased Conversions:&lt;/h4&gt;
+
+&lt;p&gt;Removing a registration barrier such as the traditional login will result in more website conversions. Users prefer a one or two click process that connects them more easily to your app. More conversions equate to more users that you can target with your brand’s promotional and newsletter content. &lt;/p&gt;
+
+&lt;h4 id="improvedcustomerdata"&gt;Improved Customer Data:&lt;/h4&gt;
+
+&lt;p&gt;&lt;a href="http://www.websitemagazine.com/content/blogs/posts/archive/2013/02/13/the-benefits-of-social-login.aspx"&gt;83%&lt;/a&gt; of people say they use false information when creating an account on a new website. The data stored on a social network is typically more accurate and up-to-date compared with data entered on a website to get through a registration process quickly. Additionally, social networks like Facebook give you access to information like demographics, interests, behaviors, location and network connections. Here’s a list of some of the major data properties that are collected by a few of today’s social networks &lt;a href="http://info.gigya.com/rs/672-YBF-078/images/Gigya_WP_Social_Login_101_US_WEB.pdf"&gt;(courtesy of Gigya)&lt;/a&gt;:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="https://i.imgsafe.org/6148eba.png" alt="social login data"&gt;&lt;/p&gt;
+
+&lt;h4 id="betterpersonalization"&gt;Better Personalization:&lt;/h4&gt;
+
+&lt;p&gt;Social logins give you permission-based insight into users’ real-time locations, relationship statuses, media preferences, and more. This enables you to start personalizing the experience the moment a user connects. For example, you can now greet users by name or display their profile photo, while featuring content and products that match their interests.&lt;/p&gt;
+
+&lt;h4 id="reducedriskofabandonment"&gt;Reduced Risk of Abandonment:&lt;/h4&gt;
+
+&lt;p&gt;&lt;a href="http://www.gigya.com/blog/marketers-and-developers-are-you-ready-for-facebook-logins-imminent-deadline/"&gt;85%&lt;/a&gt; of U.S. consumers say they have abandoned a site or app before registering because they were uncomfortable with the amount or type of data being requested. A social login is a less invasive option when in fact you do get user data in return. &lt;/p&gt;
+
+&lt;h4 id="increasedengagement"&gt;Increased Engagement:&lt;/h4&gt;
+
+&lt;p&gt;During future visits, the user will be able to re-enter quickly and not have to remember the unique username and password for your website. This increases the likelihood of future logged in sessions, while eliminating the frustration caused by password reset processes.&lt;/p&gt;
+
+&lt;p&gt;For app publishers, &lt;strong&gt;social logins provide a fantastic way to capture rich, permission-based identity data about users directly from the source.&lt;/strong&gt; This information can be leveraged to customize marketing communications and site experiences, resulting in increased conversion rates and engagement. &lt;/p&gt;
+
+&lt;p&gt;Tapglue was created as a way to add social features to your app almost instantly, encouraging users to signup and return daily (even hourly). If you’re looking to increase user signups and customer engagement, then &lt;a href="https://www.tapglue.com/demo/"&gt;schedule a demo&lt;/a&gt; with us today!&lt;/p&gt;</content:encoded></item><item><title>Cocoapods iOS frameworks with storyboards, nibs and resources</title><description>&lt;p&gt;&lt;img src="https://i.imgsafe.org/0470b8f.png" alt=""&gt;&lt;/p&gt;
+
+&lt;p&gt;For the last month we have been working on creating &lt;a href="https://github.com/tapglue/elements-ios"&gt;Tapglue Elements&lt;/a&gt;, a framework on iOS for integrating full features into third party apps. This includes GUIs and graphical assets like images and also interacting with our current SDK which is responsible for networking and caching. One of the fundamental&lt;/p&gt;</description><link>http://localhost:2368/ios-frameworks-storyboards-swift/</link><guid isPermaLink="false">42ca3c6c-13bf-454b-ae78-62a0416f1da0</guid><dc:creator>John Nilsen</dc:creator><pubDate>Thu, 28 Jul 2016 15:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;img src="https://i.imgsafe.org/0470b8f.png" alt=""&gt;&lt;/p&gt;
+
+&lt;p&gt;For the last month we have been working on creating &lt;a href="https://github.com/tapglue/elements-ios"&gt;Tapglue Elements&lt;/a&gt;, a framework on iOS for integrating full features into third party apps. This includes GUIs and graphical assets like images and also interacting with our current SDK which is responsible for networking and caching. One of the fundamental requirements was the support of the biggest dependency management tool out there for iOS: CocoaPods.&lt;/p&gt;
+
+&lt;p&gt;Too our big surprise there were not many examples of frameworks that do something similar to our goal, create a full feature with its own designs and UX to be integrated into third party apps. The most similar examples we found actually avoided using storyboards and xib files all together and did views purely in code. &lt;/p&gt;
+
+&lt;p&gt;In this post our goal is to create a step-by-step guide on how to create a framework with storyboards, xibs, assets and localisation that works with CocoaPods. A project containing all the code can be found &lt;a href="https://github.com/nilsen340/ios-framework-with-storyboard"&gt;here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id="setup"&gt;Setup&lt;/h2&gt;
+
+&lt;p&gt;To start we recommend using CocoaPods own template for creating frameworks by running&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;pod lib create MyFramework&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;You can find further documentation &lt;a href="https://guides.cocoapods.org/making/using-pod-lib-create.html"&gt;here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;We will be using Swift and a demo app, for the sake of simplicity, will not use any test frameworks.&lt;/p&gt;
+
+&lt;p&gt;This sets up a framework connected to a demo application you can then use to try out our framework with. In our case it looks like this:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="http://i.imgsafe.org/8b4e5cb.png" alt="alt tag"&gt;&lt;/p&gt;
+
+&lt;p&gt;This also generates the podspec for us, for now we'll just leave it the way it is. &lt;/p&gt;
+
+&lt;h2 id="letsgetstarted"&gt;Lets get started!&lt;/h2&gt;
+
+&lt;p&gt;Lets start by creating a storyboard and a view controller with a tableview. Embed your view controller in a &lt;code&gt;UINavigationViewController&lt;/code&gt; and make the navigation view controller the initial view controller.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="http://i.imgsafe.org/f0c0d5d.png" alt="alt tag"&gt;&lt;/p&gt;
+
+&lt;p&gt;We link this with the view controller we will create  called &lt;code&gt;FrameworkVC&lt;/code&gt;. To spice things up we will implement our cells in xibs, we name it &lt;code&gt;OurCell.xib&lt;/code&gt; and Assign it the reuse identifier &lt;code&gt;OurCell&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="http://i.imgsafe.org/2b0f60e.png" alt="alt tag"&gt;&lt;/p&gt;
+
+&lt;p&gt;Now lets have a look at how we can combine all of this together in the view controller:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class="language-swift"&gt;import UIKit
+
+public class FrameworkVC: UIViewController {
+
+    @IBOutlet weak var tableView: UITableView!
+    override public func viewDidLoad() {
+        super.viewDidLoad()
+        let podBundle = NSBundle(forClass: FrameworkVC.self)
+
+        let bundleURL = podBundle.URLForResource("MyFramework", withExtension: "bundle")
+        let bundle = NSBundle(URL: bundleURL!)!
+        let cellNib = UINib(nibName: "OurCell", bundle: bundle)
+        tableView.registerNib(cellNib, forCellReuseIdentifier: "OurCell")
+        tableView.estimatedRowHeight = 80
+        tableView.rowHeight = UITableViewAutomaticDimension
+    }
+}
+
+extension FrameworkVC: UITableViewDelegate {}
+
+extension FrameworkVC: UITableViewDataSource {  
+    public func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -&amp;gt; UITableViewCell {
+        return tableView.dequeueReusableCellWithIdentifier("OurCell")!
+    }
+
+    public func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -&amp;gt; Int {
+        return 1
+    }
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;To load the xib file we need to use a bundle associated to the framework itself, hence in the &lt;code&gt;viewDidLoad&lt;/code&gt; we ask for the bundle of the FrameworkVC and get the bundle of the same name as we declared in the podspec. At this point we need to head over to the podspec to update it to include our storyboard and xib file.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class="language-ruby"&gt;Pod::Spec.new do |s|  
+  s.name             = "MyFramework"
+  s.version          = "0.1.0"
+  s.summary          = "A short description of MyFramework."
+  s.description      = &amp;lt;&amp;lt;-DESC
+                       DESC
+
+  s.homepage         = "https://github.com/&amp;lt;GITHUB_USERNAME&amp;gt;/MyFramework"
+  # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
+  s.license          = 'MIT'
+  s.author           = { "John Nilsen" =&amp;gt; "john@tapglue.com" }
+  s.source           = { :git =&amp;gt; "https://github.com/&amp;lt;GITHUB_USERNAME&amp;gt;/MyFramework.git", :tag =&amp;gt; s.version.to_s }
+  # s.social_media_url = 'https://twitter.com/&amp;lt;TWITTER_USERNAME&amp;gt;'
+
+  s.platform     = :ios, '8.0'
+  s.requires_arc = true
+
+  s.source_files = 'Pod/Classes/**/*.{swift}'
+  s.resource_bundles = {
+    'MyFramework' =&amp;gt; ['Pod/Classes/**/*.{storyboard,xib}']
+  }
+end  
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;There are two significant changes here, on one side we filter the source files by extension by adding &lt;code&gt;.{swift}&lt;/code&gt; and since we're putting storyboards and nibs in the classes folder we changed the &lt;code&gt;resource_bundle&lt;/code&gt; to &lt;code&gt;Pod/Classes/**/*.{storyboard,xib}&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Now we head over to the Example app and executes &lt;code&gt;pod install&lt;/code&gt;. In Xcode the storyboards and xibs will now be displayed in a different group: &lt;code&gt;Resources&lt;/code&gt;&lt;/p&gt;
+
+&lt;h2 id="hookingthepodintotheapp"&gt;Hooking the pod into the app&lt;/h2&gt;
+
+&lt;p&gt;Since this is a framework we need to hook it up into the demo app to be able to see the results of our work. Lets start by adding a segue into our view controller. For this I will add a new class: &lt;code&gt;MyFramework&lt;/code&gt; where we can add the segue call.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class="language-swift"&gt;import UIKit
+
+public class MyFramework {
+
+    public static func performSegueToFrameworkVC(caller: UIViewController) {
+        let podBundle = NSBundle(forClass: FrameworkVC.self)
+
+        let bundleURL = podBundle.URLForResource("MyFramework", withExtension: "bundle")
+        let bundle = NSBundle(URL: bundleURL!)!
+        let storyboard = UIStoryboard(name: "FrameworkStoryboard", bundle: bundle)
+        let vc = storyboard.instantiateInitialViewController()!
+        caller.presentViewController(vc, animated: true, completion: nil)
+    }
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;As you can see we wrote the exact same code for getting the bundle, to tidy up we will create a method to generate it for us inside the &lt;code&gt;MyFramework&lt;/code&gt; class.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class="language-swift"&gt;    static var bundle:NSBundle {
+        let podBundle = NSBundle(forClass: FrameworkVC.self)
+
+        let bundleURL = podBundle.URLForResource("MyFramework", withExtension: "bundle")
+        return NSBundle(URL: bundleURL!)!
+    }
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;With that refactoring we can tidy up both &lt;code&gt;MyFramework&lt;/code&gt; and &lt;code&gt;FrameworkVC&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;Thats it! Now we can hook it up into the demo app. If we head over to the &lt;code&gt;ViewController&lt;/code&gt; in the &lt;code&gt;Example for MyFramework&lt;/code&gt; folder we just need to add the segue call in &lt;code&gt;viewDidAppear&lt;/code&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class="language-swift"&gt;import UIKit  
+import MyFramework
+
+class ViewController: UIViewController {
+
+    override func viewDidAppear(animated: Bool) {
+        MyFramework.performSegueToFrameworkVC(self)
+    }
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;When running ti you should see something like this:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="http://i.imgsafe.org/e1b361c.png" alt="alt tag"&gt;&lt;/p&gt;
+
+&lt;h2 id="addingimagesintothemix"&gt;Adding images into the mix&lt;/h2&gt;
+
+&lt;p&gt;Lets improve our cell design by adding an image to it. First we create an asset catalog in the Classes folder of MyFramework. Then we press plus to add a image set. Then we add the following images.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="https://github.com/nilsen340/ios-framework-with-storyboard/raw/master/tapglue-logo.zip"&gt;download images&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Lets redesign our cell to look like this&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="http://i.imgsafe.org/f6dd016.png" alt="alt tag"&gt;&lt;/p&gt;
+
+&lt;p&gt;If we were to run pod install on our project it would break. We need to add these new files to the resource bundle.&lt;/p&gt;
+
+&lt;p&gt;Our podspec should look something like this after fixing the issue:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class="language-ruby"&gt;Pod::Spec.new do |s|  
+  s.name             = "MyFramework"
+  s.version          = "0.1.0"
+  s.summary          = "A short description of MyFramework."
+  s.description      = &amp;lt;&amp;lt;-DESC
+                       DESC
+
+  s.homepage         = "https://github.com/&amp;lt;GITHUB_USERNAME&amp;gt;/MyFramework"
+  # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
+  s.license          = 'MIT'
+  s.author           = { "John Nilsen" =&amp;gt; "john@tapglue.com" }
+  s.source           = { :git =&amp;gt; "https://github.com/&amp;lt;GITHUB_USERNAME&amp;gt;/MyFramework.git", :tag =&amp;gt; s.version.to_s }
+  # s.social_media_url = 'https://twitter.com/&amp;lt;TWITTER_USERNAME&amp;gt;'
+
+  s.platform     = :ios, '8.0'
+  s.requires_arc = true
+
+  s.source_files = 'Pod/Classes/**/*.{swift}'
+  s.resource_bundles = {
+    'MyFramework' =&amp;gt; ['Pod/Classes/**/*.{storyboard,xib,xcassets,json,imageset,png}']
+  }
+end  
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Notice the &lt;code&gt;resource_bundle&lt;/code&gt; now includes extensions like &lt;code&gt;xcassets&lt;/code&gt;, &lt;code&gt;json&lt;/code&gt;, &lt;code&gt;imageset&lt;/code&gt; and &lt;code&gt;png&lt;/code&gt; in addition to the ones from earlier.&lt;/p&gt;
+
+&lt;p&gt;Now run &lt;code&gt;pod install&lt;/code&gt; from the Example folder and we're all set again!&lt;/p&gt;
+
+&lt;h2 id="tips"&gt;Tips&lt;/h2&gt;
+
+&lt;p&gt;Some of the minor issues I ran into were related to the pod not being updated when executing &lt;code&gt;pod spec lint&lt;/code&gt;, we usually solved all of these doing a &lt;code&gt;pod cache clean --all&lt;/code&gt; and executing &lt;code&gt;pod spec lint&lt;/code&gt; again. &lt;/p&gt;
+
+&lt;p&gt;When writing a framework like this we would recommend providing the view controllers themselves and not the segues, and provide delegation of the most relevant parts of the view controllers. Thats the approach we decided to use for &lt;a href="https://github.com/tapglue/Elements-ios"&gt;Tapglue elements&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id="wrappingup"&gt;Wrapping up&lt;/h2&gt;
+
+&lt;p&gt;Thats it! If you want further examples of how to implement this I recommend you read the &lt;a href="https://github.com/tapglue/elements-ios"&gt;Tapglue Elements&lt;/a&gt; source code. &lt;/p&gt;</content:encoded></item><item><title>Customer Story: How Stepz saw a 10% increase in session frequency</title><description>&lt;p&gt;&lt;img src="http://i.imgsafe.org/d3417fa.png" alt=""&gt;&lt;/p&gt;
+
+&lt;p&gt;We live for our clients’ successes. There is no better feeling than when we can help them to achieve their goals and help them to improve retention and engagement.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="http://stepzapp.com/"&gt;Stepz&lt;/a&gt;, created by Michael Szumielewski, is a perfect example of an app which excels at both. Stepz is a convenient pedometer&lt;/p&gt;</description><link>http://localhost:2368/stepz-customer-story/</link><guid isPermaLink="false">63228eb9-6cb9-4fe7-8cc4-b5032abcc316</guid><category>Customers</category><dc:creator>Rafael Aviles</dc:creator><pubDate>Tue, 28 Jun 2016 18:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;img src="http://i.imgsafe.org/d3417fa.png" alt=""&gt;&lt;/p&gt;
+
+&lt;p&gt;We live for our clients’ successes. There is no better feeling than when we can help them to achieve their goals and help them to improve retention and engagement.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="http://stepzapp.com/"&gt;Stepz&lt;/a&gt;, created by Michael Szumielewski, is a perfect example of an app which excels at both. Stepz is a convenient pedometer and step counter app for iOS. Launched in April of 2014, Stepz has 2.2 million downloads, a 4.5 stars based on 5,000+ worldwide reviews, and is helping millions of people stay healthy and shatter their walking goals. Starting in January 2015, Stepz took off in several countries around the world, captured the #1 spot in the Fitness &amp;amp; Health category in Germany last year, and remains in a top position today.&lt;/p&gt;
+
+&lt;p&gt;An indie app maker for the last three years, Michael was focused on retention from day one. He built daily goals and achievement badges into his app to increase motivation. For example, if a user hits the 277 mile mark, they receive an achievement badge that informs them that they walked the distance of the Grand Canyon.&lt;/p&gt;
+
+&lt;h4 id="thefeatures"&gt;The Features&lt;/h4&gt;
+
+&lt;p&gt;Adding a social component was important Stepz' growth, and ultimately that is what lead Michael to Tapglue. Before Tapglue, not a lot of people were sharing their achievements externally on social media, but if they did, the results were great. For example, &lt;a href="https://twitter.com/realdrothschild"&gt;David Rothschild&lt;/a&gt;, who has more than 1M Twitter followers, sharing his Tokyo Achievement Badge. Michael started to focus on how to harness the power of social networks &lt;em&gt;within&lt;/em&gt; Stepz and eventually came across Tapglue.&lt;/p&gt;
+
+&lt;p&gt;Last December, Stepz worked with Tapglue to roll out the following features:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Individual User Profiles - which can connect to Facebook &lt;/li&gt;
+&lt;li&gt;Stepz Friends - which enables users to connect with friends, colleagues, and family to count steps together.&lt;/li&gt;
+&lt;li&gt;A leaderboard - which enables friends to compete with each other when it comes to  highest number of steps &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;img src="http://i.imgsafe.org/d1f20b0.png" alt=""&gt;&lt;/p&gt;
+
+&lt;h4 id="theintegration"&gt;The Integration&lt;/h4&gt;
+
+&lt;p&gt;Stepz chose Tapglue over building the backend for two reasons: time and stability. Michael shared that he wear a lot of hats and that building a social API by himself would have taken significant time. Another deciding factor was that he doesn’t have to do any maintenance on the server side, which frees up a lot of time.  &lt;/p&gt;
+
+&lt;p&gt;Michael shared: &lt;br&gt;
+“The Tapglue API is rock solid, and the technical support was excellent. The documentation was easy to understand, and if I had any questions, I could reach out to them and get immediate feedback.”&lt;/p&gt;
+
+&lt;p&gt;Within days, Tapglue enabled Stepz to create individual user profiles connected to the user’s Facebook page. After signing up, the user can easily add his or her friends already on Stepz, or by connect with friends via Facebook, under the Stepz Friends tab. After accepting a friend request, the user is able to see the steps of each friend. Stepz also added a leaderboard that is sorted by highest number of steps as a way to add some friendly competition.  &lt;/p&gt;
+
+&lt;p&gt;Connecting with friends is critical for both retention and for fitness goals. Michael explains:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;em&gt;“Numerous studies show a strong correlation in sharing progress and shedding weight. Adding a social component to Stepz helps our users meet their goals and positively impacts app retention.”&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h4 id="theresults"&gt;The Results&lt;/h4&gt;
+
+&lt;p&gt;Within 60 days of the Tapglue integration, Stepz saw an increase of &lt;strong&gt;10%&lt;/strong&gt; in session frequency and &lt;strong&gt;12%&lt;/strong&gt; in session length. We have also seen the coveted viral effect. Significantly more of Stepz’s users are inviting their Facebook friends to download the app and compete on the leaderboard. &lt;/p&gt;
+
+&lt;p&gt;Michael is thrilled:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;em&gt;“Ultimately, integrating Tapglue was an inexpensive and easy way for me to test if community features will grow traction. So far the results have been solid. I look forward to adding more social features, and to focus on continuing to improve onboarding with new app updates.”&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;</content:encoded></item><item><title>Pocket: The Evolution from Read-it-Later App to Powerful Social Network</title><description>&lt;p&gt;&lt;img src="https://i.imgsafe.org/faa3df0c49.png" alt=""&gt;&lt;/p&gt;
+
+&lt;p&gt;Pocket, the world's leading save-for-later service, announced an exciting update late last year, and essentially evolved from a normal app to social platform. The Pocket team rolled out “Recommendations” enabling users to not just capture, read, and watch the media most important to them, but to connect with other users&lt;/p&gt;</description><link>http://localhost:2368/pocket-social-network/</link><guid isPermaLink="false">3de86e99-de6d-4f04-9b2a-77e8cdc17bc8</guid><category>Product</category><dc:creator>Rafael Aviles</dc:creator><pubDate>Mon, 29 Feb 2016 12:17:18 GMT</pubDate><content:encoded>&lt;p&gt;&lt;img src="https://i.imgsafe.org/faa3df0c49.png" alt=""&gt;&lt;/p&gt;
+
+&lt;p&gt;Pocket, the world's leading save-for-later service, announced an exciting update late last year, and essentially evolved from a normal app to social platform. The Pocket team rolled out “Recommendations” enabling users to not just capture, read, and watch the media most important to them, but to connect with other users and discover and recommend content.&lt;/p&gt;
+
+&lt;p&gt;This shift to social platform follows a trend we’ve observed from other key players including &lt;a href="http://mashable.com/2015/06/29/shazam-social/#sm6zWOS_waq6"&gt;Shazam&lt;/a&gt;, &lt;a href="http://techcrunch.com/2014/10/21/product-hunt-gets-social-with-twitter-like-user-profiles-following-features-and-notifications/"&gt;ProductHunt&lt;/a&gt; or &lt;a href="http://fortune.com/2015/05/21/medium-twitter-network-effect/"&gt;Medium&lt;/a&gt;. These platforms are now leveraging the effect of networks to enable better discovery and ramp up user engagement. &lt;/p&gt;
+
+&lt;p&gt;Pocket is an excellent example of a simple app that transitioned into a powerful social network. Below we take a closer look at the features Pocket added, how they have impacted retention, and what insights you can take away for your app.&lt;/p&gt;
+
+&lt;h4 id="embeddingthesocialfeaturesintotheux"&gt;Embedding the social features into the UX&lt;/h4&gt;
+
+&lt;p&gt;A quick glance at Pocket’s updated UX proves Pocket’s commitment to social. Three of its four main tabs in the navigation bar (Recommended, Notifications, Profile) are related to new social features. The Recommended and Notification tabs feature a notification bubble designed to create expectation and indicate new content when the app is freshly launched.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="https://i.imgsafe.org/fa8baa612a.png" alt=""&gt;&lt;/p&gt;
+
+&lt;p&gt;Pocket now takes advantage of two standard features of successful social networks: the user profile and an activity feed. The user profile enables individuality, making the experience more personal with a profile picture and stores the user's history of recommendations. The notifications are combined with push notifications. They are important triggers for personalized and relevant notifications within your social graph.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="https://i.imgsafe.org/fa8b9a06b4.png" alt=""&gt;&lt;/p&gt;
+
+&lt;h4 id="recommendationsasmarterwayofsharing"&gt;Recommendations: A smarter way of sharing&lt;/h4&gt;
+
+&lt;p&gt;Another exciting feature is the new “Recommend” section where users can follow friends and influencers who can then recommend stories they find interesting. Here’s a quick look at how Recommendations work:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="https://i.imgsafe.org/fa8b928d5d.png" alt=""&gt;&lt;/p&gt;
+
+&lt;p&gt;On every story screen, Pocket has added a “Recommend” button. Once a user taps  “Recommend,” he or she can add a comment, and then he or she has the option to share the recommendation to Twitter or Facebook simultaneously, which has the ultimate goal to drive new new users to Pocket. A user can also recommend the story by quoting some part in the text.&lt;/p&gt;
+
+&lt;p&gt;Recommendations show up on the news feeds of people following the user and are shown on the user’s public profile, where Pocket aggregates all recommendations and makes them accessible to the community.&lt;/p&gt;
+
+&lt;h4 id="smartlygrowingthesocialgraph"&gt;Smartly Growing the Social Graph&lt;/h4&gt;
+
+&lt;p&gt;In order to have a sustainable network and avoid the empty room problem, users need to connect with each other. Pocket tackles this process in their “Find Users” process. The first thing a user sees after clicking the “Recommended” icon is a big banner prompting them to add fellow users. This feature is well communicated and easily displayed, enabling the user to understand the need to connect with others. Pocket recommends prominent users and influencers. It also prompts the user to import Facebook, Twitter, and address book contacts.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="https://i.imgsafe.org/fa8b8aeae5.png" alt=""&gt;&lt;/p&gt;
+
+&lt;h4 id="thepowerofpocketssocialnetwork"&gt;The Power of Pocket’s Social Network&lt;/h4&gt;
+
+&lt;p&gt;With these new features, Pocket’s users don’t only come back to the app to read stories they had previously saved, but to discover new content through their friends and influencers. The experience of reading now has a social element included. &lt;/p&gt;
+
+&lt;p&gt;Pocket’s users now have access to curated stories, recommended by users with similar taste and a credible recommendation history. When someone you know and trust recommends an article, you are more likely to read it. By creating credibility through social networks, Pocket has undoubtedly dramatically increased engagement. &lt;/p&gt;
+
+&lt;p&gt;There is also a viral component that needs to be mentioned. With more advanced onboarding, including the ease of inviting contacts, users will be even more incentivized to invite their friends. Onboarding combined with automatic push notifications related to the social graph will enable better discovery and make the experience more relevant. &lt;/p&gt;
+
+&lt;p&gt;Ultimately, Pocket has realized that a social network built on top of their content is a lot more powerful for discovery and engagement. It isn’t just Pocket that can benefit from network effects. No matter what type of app you have built, adding a social layer can boost retention and engagement.&lt;/p&gt;</content:encoded></item><item><title>Tapglue joins Techstars Boston</title><description>&lt;p&gt;&lt;img src="http://i.imgur.com/fwQwSWl.png?1" alt="Tapglue joins Techstars"&gt;&lt;/p&gt;
+
+&lt;p&gt;We are thrilled to announce that Tapglue has &lt;a href="http://www.techstars.com/content/blog/announcing-the-techstars-boston-spring-2016/"&gt;joined Techstars Boston 2016&lt;/a&gt;, one of the World’s most prestigious startup accelerators, and has made the move across the Atlantic. So just why would we do the move to Boston, particularly in &lt;em&gt;winter&lt;/em&gt;?&lt;/p&gt;
+
+&lt;p&gt;Boston is ranked as one of the top&lt;/p&gt;</description><link>http://localhost:2368/tapglue-joins-techstars-boston/</link><guid isPermaLink="false">d5e2d525-ab5b-4bde-9809-38a78eee3fcc</guid><category>Tapglue News</category><dc:creator>Norman Wiese</dc:creator><pubDate>Thu, 25 Feb 2016 16:40:17 GMT</pubDate><content:encoded>&lt;p&gt;&lt;img src="http://i.imgur.com/fwQwSWl.png?1" alt="Tapglue joins Techstars"&gt;&lt;/p&gt;
+
+&lt;p&gt;We are thrilled to announce that Tapglue has &lt;a href="http://www.techstars.com/content/blog/announcing-the-techstars-boston-spring-2016/"&gt;joined Techstars Boston 2016&lt;/a&gt;, one of the World’s most prestigious startup accelerators, and has made the move across the Atlantic. So just why would we do the move to Boston, particularly in &lt;em&gt;winter&lt;/em&gt;?&lt;/p&gt;
+
+&lt;p&gt;Boston is ranked as one of the top cities in the world for startups. For years, Boston has topped the list for most venture capital invested per capita across the US, and this combined with numerous top universities (e. g. Harvard and MIT), has made the city an ideal home for aspiring tech companies.&lt;/p&gt;
+
+&lt;p&gt;With a reputation for churning out hugely successful companies, and a track record in the mobile space, the Techstars program in Boston attracts top talent globally. Techstars Boston has produced some of the best funded classes across all of Techstars programs, including Localytics, a predictive app marketing and analytics company. After joining Techstars in 2009, Localytics stayed in Boston, opened offices in San Francisco and London, and ultimately raised $60M in funding. Other highly successful Techstars alumni include SendGrid, Digital Ocean, Keen.io or Leanplum. &lt;/p&gt;
+
+&lt;p&gt;We couldn’t be more excited to join a network of such great companies and to be now part of the unique Boston startup community.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Image Credit: &lt;a href="https://www.flickr.com/photos/chrisoakley/6044181310/in/photolist-ad71wA-bWY3jr-dVUzxx-9tSZEu-dRQGxg-jvryr-dXkQHR-29qz2Y-dDRFzL-5h7Xtp-7nWsvJ-2w1ccg-7aMT3b-cTbNaw-evivgV-838MDH-8eNNUm-qC4gxm-8cBjwT-bZmP79-7FFozi-5oYtYE-87Wrj6-bPPxhM-3JEUNs-5GHjHN-FCPKt-dnWn9v-7xrKfT-auTjCi-4CJEYe-bEafYQ-e4EwfD-b74YmM-fJg9Gn-aCqHDh-bfS6zT-bF9hA3-dCpQw4-jW7Fv-4g1Rur-6ap2G2-4zJ5D9-boJxPx-dYj5Wg-7nRudr-7nSByK-wEGkb-CxnTNf-kVjJZ5"&gt;Chris Oakley&lt;/a&gt; (&lt;a href="https://creativecommons.org/licenses/by/2.0/"&gt;CC 2.0&lt;/a&gt;)&lt;/em&gt;&lt;/p&gt;</content:encoded></item><item><title>Vertical Social Networks Rocking The App World: Nuzzel</title><description>&lt;p&gt;&lt;img src="http://localhost:2368/blog/content/images/2016/02/Teaser-Nuzzel.png" alt=""&gt;&lt;/p&gt;
+
+&lt;p&gt;After analyzing MapMyRun in the Health &amp;amp; Fitness category in the first post of this series, we now shift our focus to the &lt;em&gt;News&lt;/em&gt; category. Therefore we have analyzed Nuzzel, a vertical social network that recently has been emerging as an innovative way to consume news and trending topics from&lt;/p&gt;</description><link>http://localhost:2368/vertical-social-networks-nuzzel/</link><guid isPermaLink="false">ca05d1b1-45ec-4bff-ab9f-2581508e397c</guid><category>Product</category><dc:creator>Rafael Aviles</dc:creator><pubDate>Mon, 15 Feb 2016 17:37:16 GMT</pubDate><content:encoded>&lt;p&gt;&lt;img src="http://localhost:2368/blog/content/images/2016/02/Teaser-Nuzzel.png" alt=""&gt;&lt;/p&gt;
+
+&lt;p&gt;After analyzing MapMyRun in the Health &amp;amp; Fitness category in the first post of this series, we now shift our focus to the &lt;em&gt;News&lt;/em&gt; category. Therefore we have analyzed Nuzzel, a vertical social network that recently has been emerging as an innovative way to consume news and trending topics from the internet. &lt;/p&gt;
+
+&lt;p&gt;Nuzzel is a social news aggregator, that uses big social networks, such as Twitter and Facebook to extract the most popular news articles from a user’s social graph. It basically aggregates content that is being shared within the user’s network in social media and feeds it into the app. Nuzzel also shows news shared by friends of friends, providing the user with an extended graph to get news recommendations from.&lt;/p&gt;
+
+&lt;p&gt;Nuzzel is an interesting example as it piggybacks the major social networks to become a relevant vertical network for news itself. To understand how Nuzzel leverages network effects, we analyzed its social user experience and put together our learnings in a presentation.&lt;/p&gt;
+
+&lt;p&gt;&lt;iframe src="//www.slideshare.net/slideshow/embed_code/key/2lJ9cKjSyy1sIN" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen&gt; &lt;/iframe&gt; &lt;div style="margin-bottom:5px"&gt; &lt;strong&gt; &lt;a href="//www.slideshare.net/tapglue/analyzing-the-user-experience-of-vertical-social-networks-nuzzel" title="Analyzing the User Experience of Vertical Social Networks: Nuzzel" target="_blank"&gt;Analyzing the User Experience of Vertical Social Networks: Nuzzel&lt;/a&gt; &lt;/strong&gt; from &lt;strong&gt;&lt;a href="//www.slideshare.net/tapglue" target="_blank"&gt;Tapglue&lt;/a&gt;&lt;/strong&gt; &lt;/div&gt;&lt;/p&gt;
+
+&lt;h3 id="keytakeaways"&gt;Key Takeaways&lt;/h3&gt;
+
+&lt;h4 id="100social"&gt;100% Social&lt;/h4&gt;
+
+&lt;ul&gt;
+&lt;li&gt;The whole consumption is based on content that your social graph is sharing in social media.&lt;/li&gt;
+&lt;li&gt;Every shared article contains the pictures of your friends to increase relevance and credibility.&lt;/li&gt;
+&lt;li&gt;2nd degree connections (friends of friends) are used to enhance content discovery (expanded social graph).&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id="highdependencyontwitter"&gt;High Dependency on Twitter&lt;/h4&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Twitter is pushed as the core social login during onboarding.&lt;/li&gt;
+&lt;li&gt;As for now, Nuzzel seems to pull in the majority of news from Twitter.&lt;/li&gt;
+&lt;li&gt;Amount of content is significantly lower if user has not connected a Twitter account.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id="customizableexperience"&gt;Customizable Experience&lt;/h4&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Nuzzel offers push notifications and emails as channels to distribute recommendations.&lt;/li&gt;
+&lt;li&gt;These channels are highly customizable. The user can set thresholds for when a notification should be triggered. &lt;/li&gt;
+&lt;li&gt;Besides the major news feed created by a user’s social graph and topic-based feeds, you can subscribe to other user’s news feeds to consume the content stream fueled by their social graph. &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id="anappcompletelybasedonthesocialgraph"&gt;An app completely based on the social graph&lt;/h3&gt;
+
+&lt;p&gt;Nuzzel tackles news discovery using the social graph of existing networks as the backbone of its experience. Instead of using complicated algorithms and explicitly asking the users for input on preferences, it takes advantage of the user’s implicit interests through her network and simply aggregates the news trending in her social graph. The huge amount data available in social media enables apps like Nuzzel to offer the user an interesting way to discover news content. Thus, this is a great example on how to connect your app with external social networks and take advantage of the publicly available data.&lt;/p&gt;
+
+&lt;p&gt;At the same time, Nuzzel is highly dependent on other 3rd parties. It doesn’t own any content nor the social graph of users. One might think Nuzzel should try to create its own social and interest graph rather early to achieve independence from Twitter and Facebook. Otherwise every restriction in the APIs of the two giants could cause serious trouble for the rising social news app.&lt;/p&gt;</content:encoded></item><item><title>The Tapglue Android SDK</title><description>&lt;p&gt;&lt;img src="http://localhost:2368/blog/content/images/2016/02/Teaser-Android.png" alt=""&gt;&lt;/p&gt;
+
+&lt;p&gt;We are excited to start to year with our latest product update: The release of the Tapglue Android SDK. Our new SDK makes the integration on Android now as easy as on iOS. By using our SDK you have the whole Tapglue platform at your fingertips. It takes away the&lt;/p&gt;</description><link>http://localhost:2368/tapglue-android-sdk/</link><guid isPermaLink="false">e29516f3-b3df-4036-b8c4-a74a9a9b2f10</guid><category>Tapglue News</category><category>Engineering</category><dc:creator>Onur Akpolat</dc:creator><pubDate>Mon, 15 Feb 2016 17:33:46 GMT</pubDate><content:encoded>&lt;p&gt;&lt;img src="http://localhost:2368/blog/content/images/2016/02/Teaser-Android.png" alt=""&gt;&lt;/p&gt;
+
+&lt;p&gt;We are excited to start to year with our latest product update: The release of the Tapglue Android SDK. Our new SDK makes the integration on Android now as easy as on iOS. By using our SDK you have the whole Tapglue platform at your fingertips. It takes away the majority of implementation work, so you can concentrate on an outstanding user experience and on growing your community. &lt;/p&gt;
+
+&lt;p&gt;Our mission is to make the power of network effects accessible to every product and every developer. A big part of this is developing a powerful, flexible and scalable API that offers all necessary backend functionality you need to build a social experience around your product. However, we think that a simple and fast integration is as crucial as a comprehensive feature set. That’s why we put a lot of effort into our Android SDK - with many great things to come in the future.&lt;/p&gt;
+
+&lt;p&gt;By releasing Tapglue to the Android Community we’re bringing our platform to the biggest mobile ecosystem out there.  Besides the API communication, our SDK also solves stuff like offline behavior and parsing in the most efficient way. This puts you into the position to focus on implementing smooth user flows, lovely UIs and stunning animations.&lt;/p&gt;
+
+&lt;p&gt;We applied the same principles as we did to our &lt;a href="https://developers.tapglue.com/docs/ios"&gt;iOS SDK&lt;/a&gt;:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Fast Integration&lt;/strong&gt;: You can add Tapglue to your app with just a few lines of code. We've internally implemented our API in test apps in less than an hour.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Open Source&lt;/strong&gt;: From the day Tapglue was founded, we’ve manifested our long term commitment to open source. We believe open source is the way forward to drive innovation and learn from the community. We encourage all of you to contribute to the Tapglue platform.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Performance&lt;/strong&gt;: Leaving the smallest possible footprint in the customers’ apps is of our highest priorities. When designing the architecture our SDK, we made sure to use latest technology and best practices to deliver an outstanding performance. &lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Offline Behavior&lt;/strong&gt;: We know the problems you can encounter when developing in the mobile ecosystem. That's why we put emphasis on the details. Tapglue will work seamlessly even if your user is offline or on a bad connection. &lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Lightweight&lt;/strong&gt;: Our SDK doesn't make your project any heavier. It's only 100KB in size and won't stress your users' bandwidth when downloading your app.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Get started with the Tapglue Android SDK &lt;br&gt;
+We can't wait for you to try out what we've built and see all the different things you’ll build with Tapglue. We also appreciate any kind of feedback!&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="http://localhost:2368/blog/content/images/2016/02/Android-SDK-examples.png" alt=""&gt;&lt;/p&gt;
+
+&lt;p&gt;We've put together an &lt;a href="http://developers.tapglue.com/docs/android"&gt;Android Integration Guide&lt;/a&gt; that includes all the information you need to get started. Head over to our &lt;a href="http://dashboard.tapglue.com"&gt;Dashboard&lt;/a&gt; to get access to the Tapglue platform and start building something awesome today!  &lt;/p&gt;</content:encoded></item><item><title>Decoding The 7 Core Features Of Successful Social Apps</title><description>&lt;p&gt;&lt;img src="http://localhost:2368/blog/content/images/2015/11/Social-Feature-Teaser-2.png" alt=""&gt;&lt;/p&gt;
+
+&lt;p&gt;It is no secret that integrating social features into an app, thereby letting the product become a network, can have an immense impact on retention and growth. Companies like Sport.com have experienced an &lt;a href="http://blog.tapdaq.com/app-marketing/turn-app-community/"&gt;increase of 35% in 30 day retention&lt;/a&gt; after turning their app into a social network. We&lt;/p&gt;</description><link>http://localhost:2368/social-features/</link><guid isPermaLink="false">9adc0754-d88c-4206-89c1-8f2d0a688ab8</guid><category>Product</category><dc:creator>Norman Wiese</dc:creator><pubDate>Fri, 27 Nov 2015 14:01:09 GMT</pubDate><content:encoded>&lt;p&gt;&lt;img src="http://localhost:2368/blog/content/images/2015/11/Social-Feature-Teaser-2.png" alt=""&gt;&lt;/p&gt;
+
+&lt;p&gt;It is no secret that integrating social features into an app, thereby letting the product become a network, can have an immense impact on retention and growth. Companies like Sport.com have experienced an &lt;a href="http://blog.tapdaq.com/app-marketing/turn-app-community/"&gt;increase of 35% in 30 day retention&lt;/a&gt; after turning their app into a social network. We see &lt;a href="https://www.tapglue.com/blog/gambify-customer-story/"&gt;impressive results amongst our customers&lt;/a&gt;, too. Also on an industry level &lt;em&gt;social&lt;/em&gt; seems to be highly relevant to drive adoption and loyalty: Localytics - one of the World’s leading mobile analytics providers - reports that &lt;a href="http://info.localytics.com/blog/app-retention-improves"&gt;Social Networking apps have the lowest abandonment rates&lt;/a&gt; (together with weather apps). &lt;/p&gt;
+
+&lt;p&gt;For someone who attempts to create a more social experience around a product or who tries to build a social network from scratch, finding the right user experience and feature set might seem overwhelming. However, if you look more closely into a variety of social products you will notice that there are recurring UX patterns which are surprisingly similar. &lt;/p&gt;
+
+&lt;p&gt;To decode the success of social apps we have extracted the 7 most important features and took a closer look. We not only want to explain common patterns and why they are so impactful, but also give examples on what a successful implementation can look like. &lt;/p&gt;
+
+&lt;h4 id="1sociallogin"&gt;1. Social Login&lt;/h4&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Accelerates signup process and decreases dropout rates during onboarding&lt;/li&gt;
+&lt;li&gt;Allows access to valuable user data such as email address, profile picture, interests, likes &lt;/li&gt;
+&lt;li&gt;Leverages existing social connections to grow the social graph rapidly&lt;/li&gt;
+&lt;li&gt;Facebook by far the most adopted social login
+&lt;img src="http://localhost:2368/blog/content/images/2015/11/Social-Login-2-1.png" alt="alt"&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id="2userprofiles"&gt;2. User Profiles&lt;/h4&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Improves individual identity and credibility with other users&lt;/li&gt;
+&lt;li&gt;Stores interests, preferences, personal data, etc.&lt;/li&gt;
+&lt;li&gt;Common information: profile picture, username, real name, short bio, preferences, location, number of followers/follows/friends, recent activity
+&lt;img src="http://localhost:2368/blog/content/images/2015/11/Profiles-2.png" alt="alt"&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id="3friendsfollowers"&gt;3. Friends/Followers&lt;/h4&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Creates a user graph in your app&lt;/li&gt;
+&lt;li&gt;Two major models to establish connections: friends (private network) and following (public network)
+&lt;img src="http://localhost:2368/blog/content/images/2015/11/Friends-list-2.png" alt=""&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id="4notificationfeed"&gt;4. Notification Feed&lt;/h4&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Makes activity of a user’s network visible in a single view&lt;/li&gt;
+&lt;li&gt;Drives content discovery through other users&lt;/li&gt;
+&lt;li&gt;Powerful for retention, especially when combined with push notifications, email and notification icons
+&lt;img src="http://localhost:2368/blog/content/images/2015/11/Notifications-2.png" alt=""&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id="5newsfeed"&gt;5. News Feed&lt;/h4&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Constant stream of rich content from people or other sources a user is following&lt;/li&gt;
+&lt;li&gt;Can include user generated content (posts, pictures, videos)&lt;/li&gt;
+&lt;li&gt;Often includes like and comment functionality&lt;/li&gt;
+&lt;li&gt;Algorithms can serve as filters to achieve higher relevance &lt;/li&gt;
+&lt;li&gt;Content recommendations can harvest the data that is collected from the user network
+&lt;img src="http://localhost:2368/blog/content/images/2015/11/News-Feed-2-1.png" alt=""&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id="6outboundsharing"&gt;6. Outbound Sharing&lt;/h4&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Sharing content to other, established social networks (one to many)&lt;/li&gt;
+&lt;li&gt;Potential to grow the user base organically&lt;/li&gt;
+&lt;li&gt;Prominent share buttons are important to drive adoption&lt;/li&gt;
+&lt;li&gt;Mostly used with native elements of the respective mobile platform
+&lt;img src="http://localhost:2368/blog/content/images/2015/11/Outbound-Share-2-2.png" alt=""&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id="7invitefriends"&gt;7. Invite Friends&lt;/h4&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Inviting specific people to start using an app (one to one)&lt;/li&gt;
+&lt;li&gt;Usually personal messaging (“Join me in this app”)&lt;/li&gt;
+&lt;li&gt;Deferred deep-linking should be leveraged to create a personalized experience for the invitee&lt;/li&gt;
+&lt;li&gt;Powerful tool for viral growth, when motivation/incentive to invite others is high enough&lt;/li&gt;
+&lt;li&gt;Common channels for invites are E-Mail, SMS, Whatsapp and Facebook Messenger
+&lt;img src="http://localhost:2368/blog/content/images/2015/11/Invite-Friends-2-2.png" alt=""&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id="aframeworkforcreatingsocialnetworks"&gt;A framework for creating social networks&lt;/h4&gt;
+
+&lt;p&gt;When building a social experience into an app, it often might seem like a huge project with a lot of different paths one could take. However, if you analyze how successful companies have turned their product into a network you will notice a common feature set. &lt;/p&gt;
+
+&lt;p&gt;There are 7 core features that are the backbone of many social networks: social login, user profiles, friends/follower connections, notifications feed, news feed, outbound sharing and invite friends. &lt;/p&gt;
+
+&lt;p&gt;Plenty of successful products have proven how these features can be implemented successfully and at the same time how these features have had a massive impact on user retention, engagement and an app’s organic (or viral) growth. Therefore we consider this as the feature framework that everybody should look into when building a community into their products. &lt;/p&gt;</content:encoded></item><item><title>Vertical Social Networks Rocking The App World: MapMyRun</title><description>&lt;p&gt;&lt;img src="http://localhost:2368/blog/content/images/2015/11/MMR-Teaser-1.png" alt=""&gt;&lt;/p&gt;
+
+&lt;p&gt;Not only Facebook, Twitter and other big players are examples of successful social networks. Many other apps have achieved an impressive growth and the loyalty of their users by creating social networks in other verticals. As people strive for individuality and want to connect with people with the same interests,&lt;/p&gt;</description><link>http://localhost:2368/mapmyrun-vertical-social-networks/</link><guid isPermaLink="false">b53db956-94a4-45eb-920f-fb49c4f10bad</guid><category>Product</category><dc:creator>Norman Wiese</dc:creator><pubDate>Wed, 18 Nov 2015 11:18:28 GMT</pubDate><content:encoded>&lt;p&gt;&lt;img src="http://localhost:2368/blog/content/images/2015/11/MMR-Teaser-1.png" alt=""&gt;&lt;/p&gt;
+
+&lt;p&gt;Not only Facebook, Twitter and other big players are examples of successful social networks. Many other apps have achieved an impressive growth and the loyalty of their users by creating social networks in other verticals. As people strive for individuality and want to connect with people with the same interests, generic social networks such as Facebook and Twitter do not suit their needs all the time. &lt;/p&gt;
+
+&lt;p&gt;A great example is MapMyRun, one of the most successful apps in the Health &amp;amp; Fitness category, where users can track their workouts and share them with the community. By making use of social features, MapMyRun has created a great community experience around workout exercises and has driven its platform to outperform the majority of fitness apps. This has made MapMyRun a huge success for app publisher MapMyFitness, who in 2014 reported to have more than 30 million members in total.&lt;/p&gt;
+
+&lt;p&gt;To understand how its social features have allowed MapMyRun to become one of the most successful apps in the Health &amp;amp; Fitness category, we took a deep look into the user experience of its social features.&lt;/p&gt;
+
+&lt;p&gt;Here is a slideshare presentation with our learnings:&lt;/p&gt;
+
+&lt;p&gt;&lt;iframe src="//de.slideshare.net/slideshow/embed_code/key/zuZcxfhTfn2eYE" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen&gt; &lt;/iframe&gt; &lt;div style="margin-bottom:5px"&gt; &lt;strong&gt; &lt;a href="//de.slideshare.net/secret/zuZcxfhTfn2eYE" title="Analyzing the User Experience of Vertical Social Networks" target="_blank"&gt;Analyzing the User Experience of Vertical Social Networks&lt;/a&gt; &lt;/strong&gt; from &lt;strong&gt;&lt;a href="//www.slideshare.net/tapglue" target="_blank"&gt;Tapglue&lt;/a&gt;&lt;/strong&gt; &lt;/div&gt;&lt;/p&gt;
+
+&lt;p&gt;We see 3 main areas where MapMyRun does a great job in leveraging social features to grow, engage and retain its users:&lt;/p&gt;
+
+&lt;h3 id="onboardingtheuser"&gt;Onboarding the user&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Community features are very prominent during onboarding. Right after the first swipe the benefits of joining the community are clearly stated.&lt;/li&gt;
+&lt;li&gt;The users know from the beginning that MapMyRun is a place where they will connect with friends.&lt;/li&gt;
+&lt;li&gt;Facebook as the social login: This allows MapMyRun to take advantage of the existing social graph in Facebook, which enables them to grow their own network quickly.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id="drivingadoptionofsocialfeatures"&gt;Driving adoption of social features&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Notification bubble on the navigation menu creates awareness for social features.&lt;/li&gt;
+&lt;li&gt;3 prominent entry points to the social features (profile, activity feed, friends) instead of isolating the community into one single area of the app.&lt;/li&gt;
+&lt;li&gt;User generated content is a key element to fuel the social community.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id="growingthesocialgraph"&gt;Growing the social graph&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Recommendation of Facebook friends, who are already  members of the community.&lt;/li&gt;
+&lt;li&gt;Adding new friends is possible in all 3 sections (profile, activity feed, friends).&lt;/li&gt;
+&lt;li&gt;Users can post to Twitter and Facebook to share the app. One-to-One invitation via SMS and Email is not personalized and could be improved. &lt;/li&gt;
+&lt;li&gt;Global user search for adding other users is available, too.
+User generated content can simultaneously be shared to Facebook or Twitter, which can drive organic growth.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;MapMyRun is a great example of how social features can make apps extremely successful. MapMyRun has achieved an enormous growth and has become one of the most successful apps in the App Store and Google Play Store. The deep integration of social features has enabled MapMyRun to build a viral and defensible product. &lt;/p&gt;
+
+&lt;p&gt;Creating awareness of the social features in the onboarding, a good implementation in the navigation and finally, a well-thought and broad invitation flow, are the three core aspects that are probably very important for MapMyRun’s success. MapMyRun should serve as an example not only for fitness apps, but also for apps from any other categories that want to create a relevant, personal and social experience around their product.&lt;/p&gt;</content:encoded></item><item><title>How Gambify increased app engagement by 20% with Tapglue</title><description>&lt;p&gt;&lt;img src="http://localhost:2368/blog/content/images/2015/11/Gambify-Teaser-2x-1.png" alt=""&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="http://www.gambify.com/"&gt;Gambify&lt;/a&gt; lets users compete for the football (a.k.a. "soccer") prediction crown: in private and public groups users can place their virtual bets on football matches of the Champions League, Euro League, German Bundesliga and next year on the Euro 2016. The better your bets, the more points you&lt;/p&gt;</description><link>http://localhost:2368/gambify-customer-story/</link><guid isPermaLink="false">fdb442ba-9262-4523-baf3-25a759b1876f</guid><category>Tapglue News</category><category>Customers</category><dc:creator>Norman Wiese</dc:creator><pubDate>Tue, 10 Nov 2015 17:06:17 GMT</pubDate><content:encoded>&lt;p&gt;&lt;img src="http://localhost:2368/blog/content/images/2015/11/Gambify-Teaser-2x-1.png" alt=""&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="http://www.gambify.com/"&gt;Gambify&lt;/a&gt; lets users compete for the football (a.k.a. "soccer") prediction crown: in private and public groups users can place their virtual bets on football matches of the Champions League, Euro League, German Bundesliga and next year on the Euro 2016. The better your bets, the more points you earn. These points can be redeemed for rewards and used for participating in competitions for the chance to win match tickets and other special prices. &lt;/p&gt;
+
+&lt;p&gt;Through its streamlined user experience and the smart mechanics around leaderboards and groups, Gambify already had above-average retention and engagement metrics. An average 30 day retention rate of 75% is a number that very few apps in the sports category are able to achieve. The simple yet addictive model even attracted some international football stars such as Toni Kroos of Real Madrid, who is an active Gambify user. Nevertheless the makers of Gambify felt that there are a few missing pieces in the community experience of their product, says Gambify CEO Tobias Degele: &lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;em&gt;"Our user base already was pretty engaged, but we thought that we had to go further. We wanted to go beyond leaderboards and groups. Since we wanted to strengthen the user-to-user connection, we knew we had to enable users to follow each other."&lt;/em&gt; &lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;After looking into what that would exactly mean for their product, Gambify decided to introduce three major additions to their social features: &lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Following Users  &lt;/li&gt;
+&lt;li&gt;Public User Profiles  &lt;/li&gt;
+&lt;li&gt;Activity Feed&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;By making the activity of other users more visible, Gambify wanted to drive users back to their app beyond existing usage patterns that were mostly based on placing bets and comparing results after a match day. The hypothesis was, that with these new features users would have a less anonymous experience and that the interaction with others would make users come back more frequently. &lt;/p&gt;
+
+&lt;h4 id="theintegration"&gt;The Integration&lt;/h4&gt;
+
+&lt;p&gt;After it was clear what Gambify wanted to build, research began. How are other successful apps solving these features and what could the tech stack look like? Gambify CTO Marc Höffl explains the research process:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;em&gt;"When researching for best practices and tools for building this, we came across Tapglue. After looking deeply into their platform, we decided against building these features on our own - the hassle-free scalability and much faster time to market convinced us."&lt;/em&gt; &lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;img src="http://localhost:2368/blog/content/images/2015/11/Gambify-Screens-1.png" alt=""&gt;&lt;/p&gt;
+
+&lt;p&gt;Including concept and design phase, Gambify integrated the Tapglue Platform within less than a week into their &lt;a href="https://itunes.apple.com/de/app/gambify/id868458795"&gt;iOS&lt;/a&gt; and &lt;a href="https://play.google.com/store/apps/details?id=de.gambify.android"&gt;Android&lt;/a&gt; app. Gambify is now able to provide their users with a whole new experience. By letting users visit others people's profiles and adding the functionality to follow others, the experience feels much less loose. You can now stay up to date with what others are doing. Amongst other things, users now get notified if somebody joins or leaves a betting group, changes their profile picture or if they gain a new follower. &lt;/p&gt;
+
+&lt;p&gt;Tobias explains what has changed for their user base:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;em&gt;"Every time users open the app, they now actually experience the immense activity of others. They have a much higher motivation to be more active, come back more frequently, place their bets and explore the community."&lt;/em&gt; &lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h4 id="theresults"&gt;The Results&lt;/h4&gt;
+
+&lt;p&gt;Having already outstanding retention rates, Gambify's focus was to increase the user engagement in each session. Before integrating, they determined &lt;em&gt;average number of sessions per user&lt;/em&gt; and &lt;em&gt;impressions per session&lt;/em&gt; as the metrics they wanted to monitor closely. &lt;/p&gt;
+
+&lt;p&gt;&lt;img src="http://localhost:2368/blog/content/images/2015/11/Gambify-Results.png" alt=""&gt;&lt;/p&gt;
+
+&lt;p&gt;The results look more than promising: Just two match days after the integration, Gambify already saw an impressive jump in their core metrics. Comparing match days before and after the integration, the number of sessions per active user increased by &lt;strong&gt;+12,5%&lt;/strong&gt;. Looking at the number of impressions each user does, with &lt;strong&gt;+20,7%&lt;/strong&gt; the uplift is even more impressive. Not only do active users come back more frequently and visit more screens, they also stay longer: the session length per user increased by &lt;strong&gt;+18,3%&lt;/strong&gt;. &lt;/p&gt;
+
+&lt;p&gt;Tobias is more than happy with those results:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;em&gt;"Those results are much better than what we expected. We're excited to monitor the numbers closely over the next weeks to see what the impact on the overall retention will be. With these promising numbers, we will definitely enhance the new social features even more and introduce new features to our activity feed."&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;</content:encoded></item><item><title>Solving the Empty Room Problem</title><description>Solving the Empty Room Problem is important when launching a social feature. Tapglue suggests activities to solve it.</description><link>http://localhost:2368/empty-room-problem/</link><guid isPermaLink="false">c798dd6c-25e2-4bab-b58b-deca8f421d51</guid><category>Product</category><dc:creator>Norman Wiese</dc:creator><pubDate>Wed, 22 Jul 2015 13:51:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;img src="http://localhost:2368/blog/content/images/2015/07/Empty_Room_Problem.png" alt=""&gt;&lt;/p&gt;
+
+&lt;p&gt;Every new product or feature that is launched based on a community of users has the same chicken or egg problem. As long as there are not enough people to fuel the community, it will be difficult to attract and retain new users for this product or feature as the benefit of the community is small. We call this the Empty Room Problem. &lt;/p&gt;
+
+&lt;p&gt;Once the community gets bigger and engagement increases, it will become much easier to grow - the bigger the community, the bigger the value for each individual. This momentum is not easy to gain, but, once achieved, it can lead to exponential growth.&lt;/p&gt;
+
+&lt;p&gt;It's likely you will face this challenge when launching a social activity feed. It is one of the biggest concerns of our customers when we talk about adding a social layer to their app. There are several things you can do in order to foster adoption once a new user signs up for your app and starts looking into the activity feed. In this post, I’ll outline some of them and explain why a dedicated plan to gain initial traction for your activity feed is so important.  &lt;/p&gt;
+
+&lt;h2 id="whyisitimportanttothinkabouttheemptyroomproblem"&gt;Why is it important to think about the Empty Room Problem?&lt;/h2&gt;
+
+&lt;p&gt;So, you’re actively looking into launching a social activity feed or another social feature. If you think through the whole user flow, you might start having concerns that each user's number of connections will be too low to bring life into the feed. Great thought! It is extremely important to think about this early on, and - since you’ll be launching this from scratch - chances are indeed high that the social graph in your product is rather small for each user.  &lt;/p&gt;
+
+&lt;p&gt;This doesn’t mean you shouldn’t implement the feature. Neither does it mean you should just build and „hope they will come“. It means you should work out a plan of at least 3 or 4 actions that can help to overcome the initial lack of traction and engagement. Otherwise, there is a high risk that users will bounce right off again and will not see the activity feed as valuable as it can be.&lt;/p&gt;
+
+&lt;p&gt;Ultimately, this would lead to the evaluation that a social activity was not the right choice for your product. Most of the time, it is about a poor execution and just not having a plan to overcome the Empty Room Problem, though. So, I recommend not to just cross fingers that users will come once you launch it. Work out a detailed plan, with activities that will drive adoption.&lt;/p&gt;
+
+&lt;p&gt;The following list of actions shall help you to figure out how to best launch your activity feed.   &lt;/p&gt;
+
+&lt;h2 id="whatcanyoudoabouttheemptyroomproblem"&gt;What can you do about the Empty Room Problem?&lt;/h2&gt;
+
+&lt;h4 id="measureadoptionandconstantlyoptimizeafterlaunch"&gt;Measure adoption and constantly optimize after launch&lt;/h4&gt;
+
+&lt;p&gt;In order to be able to evaluate the performance of your activity feed and your activities promoting it, you need to have a way to measure user adoption. If you don’t have an exact idea on the share of users visiting the activity feed, how often they visit it, how much time they spend, which type of feed entry they click on, etc., you cannot evaluate the success of the feature properly. That’s why it’s important to have a mobile analytics solution in place, and track the in-app events that are relevant to the performance of your activity feed.   &lt;/p&gt;
+
+&lt;p&gt;Having proper analytics implemented puts you in the position to constantly measure the most important metrics around your activity feed. From here you can start tweaking your product and marketing to improve the adoption of your activity feed. I recommend setting up a simple one-page report for this, which you look at on a weekly or bi-weekly basis.  &lt;/p&gt;
+
+&lt;h4 id="integrateonboardingfeedentries"&gt;Integrate onboarding feed entries&lt;/h4&gt;
+
+&lt;p&gt;Trying out a new feature only to find out you cannot use it is frustrating. If a user opens your new activity feed but does not have any friends in your app yet, you should avoid displaying an empty feed.  &lt;/p&gt;
+
+&lt;p&gt;Make use of the user’s interest and show him the great benefits of your new feature. Implement some pre-defined feed entries that show what the feed can look like once filled with the user’s friends. Communicate how awesome this feed is for content discovery and to experience your product together with others.&lt;/p&gt;
+
+&lt;h4 id="encourageuserstoinvitefriends"&gt;Encourage users to invite friends&lt;/h4&gt;
+
+&lt;p&gt;Potentially, for the first time ever, users finally have a proper reason to invite others to your product. Adding friends in your app now provides the user with an immediate benefit - an experience that cannot be achieved without such social features. It’s the basis for a viral user growth machine.&lt;/p&gt;
+
+&lt;p&gt;If you communicate the value of your new social activity feed well and the user gets it, it’s the perfect moment to say "Hey, this is much more fun with your friends. Invite some of them!“. So, designing a great "invite friends“ flow, instead of showing an empty feed, will not only bring you more users but also improve the adoption of your new social feature.&lt;/p&gt;
+
+&lt;h4 id="notifyuserswhentheirfriendsjoin"&gt;Notify users when their friends join&lt;/h4&gt;
+
+&lt;p&gt;Once certain users had the experience that your activity feed was rather empty, clearly, they will not have experienced the real value behind it. It should be of high priority for you to achieve this „experienced value“ for as many users as possible. &lt;br&gt;
+Naturally your most curious users will experience the Empty Room Problem the most. That’s the hard life of being an early adopter. This does not mean that their social graph in your app won’t grow over time, though. Even if the first experience wasn’t the best one, you should remind those users about your activity feed from time to time. The perfect reason to do this is if someone in the user’s network has started using your app. Set up some sort of notification for that (e. g., an entry in the news feed, a push notification, or an email).&lt;/p&gt;
+
+&lt;h4 id="suggestorautofollowfeaturedusers"&gt;Suggest or auto-follow featured users&lt;/h4&gt;
+
+&lt;p&gt;If your community / network will be based on the follower model, which means users can discover other users’ profile publicly and start following them, you should definitely consider working with featured users. These users would be displayed to every new user starting to use your activity feed. You can either just suggest them or create a follower connection for them by default (with the ability to unfollow seamlessly).&lt;/p&gt;
+
+&lt;p&gt;There are various ways to gather a group of featured users to display to new members in your community. You could use members of your team, identify heavy users through engagement data, or manually pick community ambassadors for your product. The goal is to provide new users with interesting people they can follow to benefit from your social news or activity feed from the first session.&lt;/p&gt;
+
+&lt;h4 id="createsmartentrypointsintothefeed"&gt;Create smart entry points into the feed&lt;/h4&gt;
+
+&lt;p&gt;How should users experience your awesome new feature if they don’t know about it? So, tell them about it at the right places. Think about „secondary entry points“ besides the main one which might be in your tab bar or side drawer navigation. Here are some ideas for those secondary entry points:  &lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;dialog when a feed entry is triggered (like, recommend, check-in, etc.) &lt;/li&gt;
+&lt;li&gt;pop-up message that appears occasionally&lt;/li&gt;
+&lt;li&gt;in-app banner advertising your new feature &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id="broadcastproductnotificationsinthefeed"&gt;Broadcast product notifications in the feed&lt;/h4&gt;
+
+&lt;p&gt;Integrating a social activity feed does not only create a community in your product, it also gives you a new real-time communication channel to your users. Besides letting your user network fill this feed, you should also consider to do this on your own. Thinking about the social activity feed also as a place for notifications, you could broadcast messages about new app versions and features, feature certain pieces of content, etc. Those notifications can be triggered manually or automatically from your system. In both cases, they will bring life to your activity feed, which means users will perceive it more valuable.   &lt;/p&gt;
+
+&lt;h4 id="createandexecuteamarketingplanforthelaunch"&gt;Create and execute a marketing plan for the launch&lt;/h4&gt;
+
+&lt;p&gt;Adding a social layer to your app is just great news. You should not forget to have proper plan for external communication in place. This should involve your own channels such as your blog, twitter, or the app store update messages, as well as external channels such as PR and advertising. Making a social transition in your product experience should be considered a major iteration of your product, and you should plan your communication accordingly.   &lt;/p&gt;
+
+&lt;h2 id="conclusions"&gt;Conclusions&lt;/h2&gt;
+
+&lt;p&gt;Not having a solid plan to overcome the Empty Room Problem when launching a social product from scratch, or when implementing a social activity feed, can be a high risk for its success. No matter how well you design and implement it, if it does not see relevant user traction, chances are high that it won’t be successful. That’s why thinking about this challenge has to be an integral part of your launch strategy. However, there are good practices that you can take up to minimize the risk that your activity feed will lack adoption.   &lt;/p&gt;
+
+&lt;p&gt;Thinking carefully about the new user experience is crucial. What will people see in the activity feed if they don’t have any connections in your app yet? Will you show a frustratingly empty state, or a compelling onboarding flow with built-in feed entries? Will you leave it up to a user's imagination what a lively feed will look like or will you fill it through recommended users to follow? Will you have her leave frustrated or encourage her to invite some friends?   &lt;/p&gt;
+
+&lt;p&gt;There are plenty of things you can do to overcome the Empty Room Problem. And this is what the most successful social products out there have done, or still do. Success with communities does not happen randomly. It is always the result of a well-executed product strategy. Therefore, I highly recommend thinking about the launch strategy of your social activity feed (or other community features) from the moment you plan to implement it.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;You liked this article? Follow us on &lt;a href="http://www.twitter.com/tapglue/"&gt;Twitter&lt;/a&gt; and don't miss out on new stuff!&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="https://www.flickr.com/photos/drocpsu/8546730021/in/photolist-e2fe5a-9DhFqm-aBw7vt-9zVfS-7woV71-7ref1f-6W5LPe-bp6f8J-7rp8Wi-qJit7j-dMo44w-kQyXQ6-ouuc4W-gF7RHY-a2fsy7-3gEWNx-kT3ji6-6htDJ1-a9wjRM-qiuKFe-fz3bSd-sjpNa-5YqdiZ-6sqgFQ-82EGc1-6qQzF8-7LG6Nw-5CXydp-j2kBqK-5f9Fxi-jCeatj-TctdH-kjQmLs-snsxQ2-epZFYP-CETDW-8puoRd-9H1si7-egP4qH-zLV8Y-8uyeyS-5mq2TY-apPqcz-65pmUG-gptEr-oakQc-oNCAry-4ctt4U-6gnXoB-7EFp1u"&gt;Featured Image&lt;/a&gt; by drocpsu (&lt;a href="http://creativecommons.org/licenses/by/2.0/"&gt;CC BY 2.0&lt;/a&gt;)&lt;/p&gt;</content:encoded></item><item><title>The Tapglue iOS SDK</title><description>Our brand new SDK makes it even easier to add a social activity feed and other powerful social features to your mobile app.</description><link>http://localhost:2368/tapglue-ios-sdk/</link><guid isPermaLink="false">13d8ad5c-3800-4cb5-a748-8178b92005c2</guid><category>Tapglue News</category><category>Engineering</category><dc:creator>Onur Akpolat</dc:creator><pubDate>Tue, 23 Jun 2015 08:42:29 GMT</pubDate><content:encoded>&lt;p&gt;&lt;img src="http://localhost:2368/blog/content/images/2015/06/Tapglue-iOS-SDK-Teaser.svg" alt="Tapglue iOS SDK Teaser"&gt;&lt;/p&gt;
+
+&lt;p&gt;We have exciting news to share: The release of the &lt;a href="http://developers.tapglue.com/page/ios-guide"&gt;Tapglue iOS SDK&lt;/a&gt;. Our brand new SDK makes it even easier to add a &lt;a href="http://www.tapglue.com/news-feed/"&gt;social activity feed&lt;/a&gt; and other powerful social features to your mobile app. By using our SDK you have the whole Tapglue platform at your fingertips. It takes away the majority of implementation work, so you can concentrate on an outstanding user experience and on growing your community. &lt;/p&gt;
+
+&lt;p&gt;Our mission is to make the power of social networks accessible to a wider range of mobile developers. A big part of this is developing a powerful, flexible and scalable API that offers all necessary backend functionality you need to build a social experience around your product. We think a state-of-the-art developer tool should not stop at the backend though. Having worked in mobile for years, we know that a simple and fast integration is key when using 3rd party tools. That's why a modern, lightweight and powerful SDK is core Tapglue's in product strategy - with many awesome things to come in the future. &lt;/p&gt;
+
+&lt;p&gt;By creating the Tapglue SDK we enter the client side which we think is necessary to provide a comprehensive tool for mobile developers. We're solving challenges like API communication, offline behavior and parsing in the most efficient way - so you can focus on implementing smooth user flows, lovely UIs and stunning animations. &lt;/p&gt;
+
+&lt;p&gt;There are certain things that were important to us when developing our SDK, so here are some highlights: &lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Super fast integration:&lt;/strong&gt; You can add Tapglue to your app with just a few lines of code. We've internally implemented our API in test apps in less than one hours. &lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Open Source:&lt;/strong&gt; We are big believers in transparency, openness and in participating in the open source developer community. That's why our SDK is 100% open source and available on Github. &lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Performance:&lt;/strong&gt; The same love for state-of-the-art technology we put into our API, we also put into our SDKs. That's why we use the latest patterns and practices to deliver an outstanding performance. &lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Offline Behavior:&lt;/strong&gt; We know the kinks that developing in the mobile environment can have. That's why we put emphasis on the details. Tapglue will work seamlessly even if your user is on a bad or no connection. &lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Lightweight:&lt;/strong&gt; Our SDK doesn't make your project any heavier. It's less than 200KB in size. It won't stress your users' bandwidth when downloading your app. &lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Flexible:&lt;/strong&gt; We're not forcing you to use our SDK. You can still hook up with our &lt;a href="http://developers.tapglue.com/"&gt;API&lt;/a&gt; directly if you wish. &lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id="getstartedwiththetapglueiossdk"&gt;Get started with the Tapglue iOS SDK&lt;/h2&gt;
+
+&lt;p&gt;We can't wait for you to try out what we've built and see all your awesome use cases. We also appreciate any kind of feedback! To get you started we've put together an &lt;a href="http://developers.tapglue.com/page/ios-guide"&gt;iOS Integration Guide&lt;/a&gt; that includes all the information you need to get started. &lt;/p&gt;
+
+&lt;p&gt;&lt;a href="http://developers.tapglue.com/page/ios-guide"&gt;&lt;img src="http://localhost:2368/blog/content/images/2015/06/SDK-Button-1.svg" alt="iOS SDK" title=""&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Remember that you will need &lt;a href="http://developers.tapglue.com/v0.2/docs/introduction#section-create-application"&gt;access to our API&lt;/a&gt; in order to start using the SDK. If you don't have access yet, just &lt;a href="mailto:contact@tapglue.com"&gt;drop us an email&lt;/a&gt; and we'll handle it! &lt;/p&gt;</content:encoded></item><item><title>10 Mobile Influencers You Should Follow</title><description>We have collected 10 mobile influencers that inspire us and shape the discussions in the mobile industry.</description><link>http://localhost:2368/10-top-mobile-influencers/</link><guid isPermaLink="false">243640fa-4a8d-4c34-bfd5-cb0b163d2f21</guid><category>Product</category><dc:creator>Norman Wiese</dc:creator><pubDate>Wed, 17 Jun 2015 11:15:44 GMT</pubDate><content:encoded>&lt;p&gt;&lt;img src="http://localhost:2368/blog/content/images/2015/06/10_Top_Mobile_Influencers-1.png" alt="10 Top Mobile Influencers"&gt;&lt;/p&gt;
+
+&lt;p&gt;Staying on top of the latest developments in the mobile market is core to be successful. Learning about the latest trends, participating in discussions about the future and knowing the hottest new technologies is necessary to be a relevant player in this ever-changing environment. &lt;/p&gt;
+
+&lt;p&gt;We have collected 10 mobile influencers that inspire us and shape the discussions in the mobile industry. Follow them to always be on top of the ecosystem.&lt;/p&gt;
+
+&lt;h6 id="1benedictevansbenedictevanshttpstwittercombenedictevans"&gt;1. Benedict Evans, @&lt;a href="https://twitter.com/BenedictEvans"&gt;BenedictEvans&lt;/a&gt;&lt;/h6&gt;
+
+&lt;p&gt;It seems Benedict Evans is one of the smartest guys on earth, having an incredible overview on the whole mobile ecosystem and where it's going. He is &lt;a href="http://ben-evans.com/"&gt;blogging&lt;/a&gt; and publishes a &lt;a href="http://ben-evans.com/news/"&gt;weekly newsletter&lt;/a&gt; which we highly recommend. &lt;/p&gt;
+
+&lt;h6 id="2lukewroblewskilukewhttpstwittercomlukew"&gt;2. Luke Wroblewski, @&lt;a href="https://twitter.com/lukew"&gt;lukew&lt;/a&gt;&lt;/h6&gt;
+
+&lt;p&gt;Luke Wroblewski is Product Director at Google and one of the leading product minds on the internet. Being author of &lt;a href="http://www.lukew.com/resources/mobile_first.asp"&gt;Mobile First&lt;/a&gt; his thoughts were and are influencing what mobile products look like today.  &lt;/p&gt;
+
+&lt;h6 id="3dankaplandankaplanhttpstwittercomdankaplan"&gt;3. Dan Kaplan, @&lt;a href="https://twitter.com/dankaplan"&gt;dankaplan&lt;/a&gt;&lt;/h6&gt;
+
+&lt;p&gt;Dan Kaplan is all about growth. He helped amazing companies like Twilio, Asana and Salesforce to get their marketing right. He is also columnist at TechCrunch and writes a &lt;a href="http://threadling.com/blog/"&gt;blog&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h6 id="4maribellopezmaribellopezhttpstwittercommaribellopez"&gt;4. Maribel Lopez, @&lt;a href="https://twitter.com/maribellopez"&gt;maribellopez&lt;/a&gt;&lt;/h6&gt;
+
+&lt;p&gt;Maribel Lopez founded &lt;a href="http://www.lopezresearch.com/"&gt;Lopez Research&lt;/a&gt;, a leading mobile market research firm. She writes about how mobile changes the world on the &lt;a href="http://www.lopezresearch.com/mobile-technology-news/"&gt;Mobility Blog&lt;/a&gt; and is author at &lt;a href="http://www.forbes.com/sites/maribellopez/"&gt;Forbes&lt;/a&gt;. &lt;/p&gt;
+
+&lt;h6 id="5inafriedinafriedhttpstwittercominafried"&gt;5. Ina Fried, @&lt;a href="https://twitter.com/inafried"&gt;inafried&lt;/a&gt;&lt;/h6&gt;
+
+&lt;p&gt;Journalist Ina Friend writes excellent pieces on everything mobile at &lt;a href="http://recode.net/author/ina-fried/"&gt;Re/code&lt;/a&gt;. Make sure to follow her and you won't miss out on the latest trends of the industry. &lt;/p&gt;
+
+&lt;h6 id="6andrewchenandrewchenhttpstwittercomandrewchen"&gt;6. Andrew Chen, @&lt;a href="https://twitter.com/andrewchen"&gt;andrewchen&lt;/a&gt;&lt;/h6&gt;
+
+&lt;p&gt;Andrew Chen has written more than &lt;a href="http://andrewchen.co/list-of-essays/"&gt;650 essays&lt;/a&gt; on mobile, user growth and fundraising. We recommend to subscribe to his &lt;a href="http://andrewchen.co/"&gt;newsletter&lt;/a&gt; to receive his latest pieces straight to your inbox. &lt;/p&gt;
+
+&lt;h6 id="7peggyannesalzpeggyannehttpstwittercompeggyanne"&gt;7. Peggy Anne Salz, @&lt;a href="https://twitter.com/peggyanne"&gt;peggyanne&lt;/a&gt;&lt;/h6&gt;
+
+&lt;p&gt;Peggy Anne Salz is analyst and author, leading the technology site &lt;a href="http://www.mobilegroove.com/"&gt;Mobile Groove&lt;/a&gt;. She is also author at &lt;a href="http://www.forbes.com/sites/peggyannesalz/"&gt;Forbes&lt;/a&gt; and writes about mobile marketing, engagement and apps. &lt;/p&gt;
+
+&lt;h6 id="8peterkafkapkafkahttpstwittercompkafka"&gt;8. Peter Kafka, @&lt;a href="https://twitter.com/pkafka"&gt;pkafka&lt;/a&gt;&lt;/h6&gt;
+
+&lt;p&gt;Peter Kafka is a widely regarded tech journalist who is writing for &lt;a href="http://recode.net/author/peter-kafka/"&gt;Re/code&lt;/a&gt;. Having worked for several tech media houses his articles are always thoughtful reads that we recommend. &lt;/p&gt;
+
+&lt;h6 id="9kevinctofelkevinctofelhttpstwittercomkevinctofel"&gt;9. Kevin C. Tofel, @&lt;a href="https://twitter.com/kevinctofel"&gt;kevinctofel&lt;/a&gt;&lt;/h6&gt;
+
+&lt;p&gt;Kevin C. Tofel writes about the mobile industry since 2003. He covers mobile platforms, apps and services on &lt;a href="http://www.zdnet.com/blog/mobile-platforms/"&gt;ZDNet&lt;/a&gt; and we highly recommend his articles, analyzes and podcasts. &lt;/p&gt;
+
+&lt;h6 id="10benjaminrobbinspaladorbenjaminhttpstwittercompaladorbenjamin"&gt;10. Benjamin Robbins, @&lt;a href="https://twitter.com/paladorbenjamin"&gt;paladorbenjamin&lt;/a&gt;&lt;/h6&gt;
+
+&lt;p&gt;Last but not least, we recommend to follow Benjamin Robbins. He spent an entire year solely &lt;a href="http://www.guardian.co.uk/media-network/series/mobile-only"&gt;working from a single mobile device&lt;/a&gt; and regularly writes on everything mobile for &lt;a href="http://www.theguardian.com/profile/benjamin-robbins"&gt;The Guradian&lt;/a&gt;. &lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Do you have other awesome influencers we should not miss? Head over to &lt;a href="https://twitter.com/tapglue/"&gt;Twitter&lt;/a&gt; and let us know!&lt;/em&gt;&lt;/p&gt;</content:encoded></item></channel></rss>

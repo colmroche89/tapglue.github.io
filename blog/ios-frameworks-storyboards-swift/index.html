@@ -1,0 +1,370 @@
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <title>Cocoapods iOS frameworks with storyboards, nibs and resources</title>
+    <meta name="description" content="">
+
+    <meta name="HandheldFriendly" content="True">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="shortcut icon" href="../favicon.ico">
+
+    <link rel="stylesheet" type="text/css" href="../assets/css/screen.css?v=14d65a2715">
+    <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Merriweather:300,700,700italic,300italic%7COpen+Sans:700,400">
+
+    <link rel="canonical" href="index.html">
+    <meta name="referrer" content="no-referrer-when-downgrade">
+    <link rel="amphtml" href="amp/index.html">
+    
+    <meta property="og:site_name" content="The Tapglue Blog">
+    <meta property="og:type" content="article">
+    <meta property="og:title" content="Cocoapods iOS frameworks with storyboards, nibs and resources">
+    <meta property="og:description" content="For the last month we have been working on creating Tapglue Elements, a framework on iOS for integrating full features into third party apps. This includes GUIs and graphical assets like images and also interacting with our current SDK which is responsible for networking and caching. One of the fundamental">
+    <meta property="og:url" content="http://localhost:2368/ios-frameworks-storyboards-swift/">
+    <meta property="article:published_time" content="2016-07-28T15:00:00.000Z">
+    <meta property="article:modified_time" content="2016-09-28T22:28:49.000Z">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="Cocoapods iOS frameworks with storyboards, nibs and resources">
+    <meta name="twitter:description" content="For the last month we have been working on creating Tapglue Elements, a framework on iOS for integrating full features into third party apps. This includes GUIs and graphical assets like images and also interacting with our current SDK which is responsible for networking and caching. One of the fundamental">
+    <meta name="twitter:url" content="http://localhost:2368/ios-frameworks-storyboards-swift/">
+    <meta name="twitter:label1" content="Written by">
+    <meta name="twitter:data1" content="John Nilsen">
+    <meta name="twitter:site" content="@tapglue">
+    
+    <script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "publisher": {
+        "@type": "Organization",
+        "name": "The Tapglue Blog",
+        "logo": "http://localhost:2368/ghost/img/ghosticon.jpg"
+    },
+    "author": {
+        "@type": "Person",
+        "name": "John Nilsen",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://www.tapglue.com/img/team/john.jpg",
+            "width": 2996,
+            "height": 2905
+        },
+        "url": "http://localhost:2368/author/john-nilsen/",
+        "sameAs": []
+    },
+    "headline": "Cocoapods iOS frameworks with storyboards, nibs and resources",
+    "url": "http://localhost:2368/ios-frameworks-storyboards-swift/",
+    "datePublished": "2016-07-28T15:00:00.000Z",
+    "dateModified": "2016-09-28T22:28:49.000Z",
+    "description": "For the last month we have been working on creating Tapglue Elements, a framework on iOS for integrating full features into third party apps. This includes GUIs and graphical assets like images and also interacting with our current SDK which is responsible for networking and caching. One of the fundamental",
+    "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "http://localhost:2368"
+    }
+}
+    </script>
+
+    <meta name="generator" content="Ghost 0.11">
+    <link rel="alternate" type="application/rss+xml" title="The Tapglue Blog" href="../rss/index.html">
+    <script type="text/javascript">
+  !function(){var analytics=window.analytics=window.analytics||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","page","once","off","on"];analytics.factory=function(t){return function(){var e=Array.prototype.slice.call(arguments);e.unshift(t);analytics.push(e);return analytics}};for(var t=0;t<analytics.methods.length;t++){var e=analytics.methods[t];analytics[e]=analytics.factory(e)}analytics.load=function(t){var e=document.createElement("script");e.type="text/javascript";e.async=!0;e.src=("https:"===document.location.protocol?"https://":"http://")+"cdn.segment.com/analytics.js/v1/"+t+"/analytics.min.js";var n=document.getElementsByTagName("script")[0];n.parentNode.insertBefore(e,n)};analytics.SNIPPET_VERSION="3.1.0";
+  analytics.load("New9ADhDv3J4ipQ3OrfsoWo9DMlVCIxO");
+  analytics.page()
+  }}();
+</script>
+<script src="http://my.hellobar.com/380476469d4e83b8b2b900ccb020dc1ebff44f2c.js" type="text/javascript" charset="utf-8" async="async"></script>
+</head>
+<body class="post-template nav-closed">
+
+    
+
+    <div class="site-wrapper">
+
+        
+
+
+<header class="main-header post-head no-cover">
+    <nav class="main-nav  clearfix">
+        
+    </nav>
+</header>
+
+<main class="content" role="main">
+    <article class="post">
+
+        <header class="post-header">
+            <h1 class="post-title">Cocoapods iOS frameworks with storyboards, nibs and resources</h1>
+            <section class="post-meta">
+                <time class="post-date" datetime="2016-07-28">28 July 2016</time> 
+            </section>
+        </header>
+
+        <section class="post-content">
+            <p><img src="https://i.imgsafe.org/0470b8f.png" alt=""></p>
+
+<p>For the last month we have been working on creating <a href="https://github.com/tapglue/elements-ios">Tapglue Elements</a>, a framework on iOS for integrating full features into third party apps. This includes GUIs and graphical assets like images and also interacting with our current SDK which is responsible for networking and caching. One of the fundamental requirements was the support of the biggest dependency management tool out there for iOS: CocoaPods.</p>
+
+<p>Too our big surprise there were not many examples of frameworks that do something similar to our goal, create a full feature with its own designs and UX to be integrated into third party apps. The most similar examples we found actually avoided using storyboards and xib files all together and did views purely in code. </p>
+
+<p>In this post our goal is to create a step-by-step guide on how to create a framework with storyboards, xibs, assets and localisation that works with CocoaPods. A project containing all the code can be found <a href="https://github.com/nilsen340/ios-framework-with-storyboard">here</a>.</p>
+
+<h2 id="setup">Setup</h2>
+
+<p>To start we recommend using CocoaPods own template for creating frameworks by running</p>
+
+<p><code>pod lib create MyFramework</code></p>
+
+<p>You can find further documentation <a href="https://guides.cocoapods.org/making/using-pod-lib-create.html">here</a>.</p>
+
+<p>We will be using Swift and a demo app, for the sake of simplicity, will not use any test frameworks.</p>
+
+<p>This sets up a framework connected to a demo application you can then use to try out our framework with. In our case it looks like this:</p>
+
+<p><img src="http://i.imgsafe.org/8b4e5cb.png" alt="alt tag"></p>
+
+<p>This also generates the podspec for us, for now we'll just leave it the way it is. </p>
+
+<h2 id="letsgetstarted">Lets get started!</h2>
+
+<p>Lets start by creating a storyboard and a view controller with a tableview. Embed your view controller in a <code>UINavigationViewController</code> and make the navigation view controller the initial view controller.</p>
+
+<p><img src="http://i.imgsafe.org/f0c0d5d.png" alt="alt tag"></p>
+
+<p>We link this with the view controller we will create  called <code>FrameworkVC</code>. To spice things up we will implement our cells in xibs, we name it <code>OurCell.xib</code> and Assign it the reuse identifier <code>OurCell</code></p>
+
+<p><img src="http://i.imgsafe.org/2b0f60e.png" alt="alt tag"></p>
+
+<p>Now lets have a look at how we can combine all of this together in the view controller:</p>
+
+<pre><code class="language-swift">import UIKit
+
+public class FrameworkVC: UIViewController {
+
+    @IBOutlet weak var tableView: UITableView!
+    override public func viewDidLoad() {
+        super.viewDidLoad()
+        let podBundle = NSBundle(forClass: FrameworkVC.self)
+
+        let bundleURL = podBundle.URLForResource("MyFramework", withExtension: "bundle")
+        let bundle = NSBundle(URL: bundleURL!)!
+        let cellNib = UINib(nibName: "OurCell", bundle: bundle)
+        tableView.registerNib(cellNib, forCellReuseIdentifier: "OurCell")
+        tableView.estimatedRowHeight = 80
+        tableView.rowHeight = UITableViewAutomaticDimension
+    }
+}
+
+extension FrameworkVC: UITableViewDelegate {}
+
+extension FrameworkVC: UITableViewDataSource {  
+    public func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -&gt; UITableViewCell {
+        return tableView.dequeueReusableCellWithIdentifier("OurCell")!
+    }
+
+    public func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -&gt; Int {
+        return 1
+    }
+}
+</code></pre>
+
+<p>To load the xib file we need to use a bundle associated to the framework itself, hence in the <code>viewDidLoad</code> we ask for the bundle of the FrameworkVC and get the bundle of the same name as we declared in the podspec. At this point we need to head over to the podspec to update it to include our storyboard and xib file.</p>
+
+<pre><code class="language-ruby">Pod::Spec.new do |s|  
+  s.name             = "MyFramework"
+  s.version          = "0.1.0"
+  s.summary          = "A short description of MyFramework."
+  s.description      = &lt;&lt;-DESC
+                       DESC
+
+  s.homepage         = "https://github.com/&lt;GITHUB_USERNAME&gt;/MyFramework"
+  # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
+  s.license          = 'MIT'
+  s.author           = { "John Nilsen" =&gt; "john@tapglue.com" }
+  s.source           = { :git =&gt; "https://github.com/&lt;GITHUB_USERNAME&gt;/MyFramework.git", :tag =&gt; s.version.to_s }
+  # s.social_media_url = 'https://twitter.com/&lt;TWITTER_USERNAME&gt;'
+
+  s.platform     = :ios, '8.0'
+  s.requires_arc = true
+
+  s.source_files = 'Pod/Classes/**/*.{swift}'
+  s.resource_bundles = {
+    'MyFramework' =&gt; ['Pod/Classes/**/*.{storyboard,xib}']
+  }
+end  
+</code></pre>
+
+<p>There are two significant changes here, on one side we filter the source files by extension by adding <code>.{swift}</code> and since we're putting storyboards and nibs in the classes folder we changed the <code>resource_bundle</code> to <code>Pod/Classes/**/*.{storyboard,xib}</code></p>
+
+<p>Now we head over to the Example app and executes <code>pod install</code>. In Xcode the storyboards and xibs will now be displayed in a different group: <code>Resources</code></p>
+
+<h2 id="hookingthepodintotheapp">Hooking the pod into the app</h2>
+
+<p>Since this is a framework we need to hook it up into the demo app to be able to see the results of our work. Lets start by adding a segue into our view controller. For this I will add a new class: <code>MyFramework</code> where we can add the segue call.</p>
+
+<pre><code class="language-swift">import UIKit
+
+public class MyFramework {
+
+    public static func performSegueToFrameworkVC(caller: UIViewController) {
+        let podBundle = NSBundle(forClass: FrameworkVC.self)
+
+        let bundleURL = podBundle.URLForResource("MyFramework", withExtension: "bundle")
+        let bundle = NSBundle(URL: bundleURL!)!
+        let storyboard = UIStoryboard(name: "FrameworkStoryboard", bundle: bundle)
+        let vc = storyboard.instantiateInitialViewController()!
+        caller.presentViewController(vc, animated: true, completion: nil)
+    }
+}
+</code></pre>
+
+<p>As you can see we wrote the exact same code for getting the bundle, to tidy up we will create a method to generate it for us inside the <code>MyFramework</code> class.</p>
+
+<pre><code class="language-swift">    static var bundle:NSBundle {
+        let podBundle = NSBundle(forClass: FrameworkVC.self)
+
+        let bundleURL = podBundle.URLForResource("MyFramework", withExtension: "bundle")
+        return NSBundle(URL: bundleURL!)!
+    }
+</code></pre>
+
+<p>With that refactoring we can tidy up both <code>MyFramework</code> and <code>FrameworkVC</code>.</p>
+
+<p>Thats it! Now we can hook it up into the demo app. If we head over to the <code>ViewController</code> in the <code>Example for MyFramework</code> folder we just need to add the segue call in <code>viewDidAppear</code></p>
+
+<pre><code class="language-swift">import UIKit  
+import MyFramework
+
+class ViewController: UIViewController {
+
+    override func viewDidAppear(animated: Bool) {
+        MyFramework.performSegueToFrameworkVC(self)
+    }
+}
+</code></pre>
+
+<p>When running ti you should see something like this:</p>
+
+<p><img src="http://i.imgsafe.org/e1b361c.png" alt="alt tag"></p>
+
+<h2 id="addingimagesintothemix">Adding images into the mix</h2>
+
+<p>Lets improve our cell design by adding an image to it. First we create an asset catalog in the Classes folder of MyFramework. Then we press plus to add a image set. Then we add the following images.</p>
+
+<p><a href="https://github.com/nilsen340/ios-framework-with-storyboard/raw/master/tapglue-logo.zip">download images</a></p>
+
+<p>Lets redesign our cell to look like this</p>
+
+<p><img src="http://i.imgsafe.org/f6dd016.png" alt="alt tag"></p>
+
+<p>If we were to run pod install on our project it would break. We need to add these new files to the resource bundle.</p>
+
+<p>Our podspec should look something like this after fixing the issue:</p>
+
+<pre><code class="language-ruby">Pod::Spec.new do |s|  
+  s.name             = "MyFramework"
+  s.version          = "0.1.0"
+  s.summary          = "A short description of MyFramework."
+  s.description      = &lt;&lt;-DESC
+                       DESC
+
+  s.homepage         = "https://github.com/&lt;GITHUB_USERNAME&gt;/MyFramework"
+  # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
+  s.license          = 'MIT'
+  s.author           = { "John Nilsen" =&gt; "john@tapglue.com" }
+  s.source           = { :git =&gt; "https://github.com/&lt;GITHUB_USERNAME&gt;/MyFramework.git", :tag =&gt; s.version.to_s }
+  # s.social_media_url = 'https://twitter.com/&lt;TWITTER_USERNAME&gt;'
+
+  s.platform     = :ios, '8.0'
+  s.requires_arc = true
+
+  s.source_files = 'Pod/Classes/**/*.{swift}'
+  s.resource_bundles = {
+    'MyFramework' =&gt; ['Pod/Classes/**/*.{storyboard,xib,xcassets,json,imageset,png}']
+  }
+end  
+</code></pre>
+
+<p>Notice the <code>resource_bundle</code> now includes extensions like <code>xcassets</code>, <code>json</code>, <code>imageset</code> and <code>png</code> in addition to the ones from earlier.</p>
+
+<p>Now run <code>pod install</code> from the Example folder and we're all set again!</p>
+
+<h2 id="tips">Tips</h2>
+
+<p>Some of the minor issues I ran into were related to the pod not being updated when executing <code>pod spec lint</code>, we usually solved all of these doing a <code>pod cache clean --all</code> and executing <code>pod spec lint</code> again. </p>
+
+<p>When writing a framework like this we would recommend providing the view controllers themselves and not the segues, and provide delegation of the most relevant parts of the view controllers. Thats the approach we decided to use for <a href="https://github.com/tapglue/Elements-ios">Tapglue elements</a></p>
+
+<h2 id="wrappingup">Wrapping up</h2>
+
+<p>Thats it! If you want further examples of how to implement this I recommend you read the <a href="https://github.com/tapglue/elements-ios">Tapglue Elements</a> source code. </p>
+        </section>
+
+        <footer class="post-footer">
+
+
+            <figure class="author-image">
+                <a class="img" href="../author/john-nilsen/" style="background-image: url(https://www.tapglue.com/img/team/john.jpg)"><span class="hidden">John Nilsen's Picture</span></a>
+            </figure>
+
+            <section class="author">
+                <h4><a href="../author/john-nilsen/">John Nilsen</a></h4>
+
+                    <p>Read <a href="../author/john-nilsen/">more posts</a> by this author.</p>
+                <div class="author-meta">
+                    
+                    
+                </div>
+            </section>
+
+
+            <section class="share">
+                <h4>Share this post</h4>
+                <a class="icon-twitter" href="https://twitter.com/intent/tweet?text=Cocoapods%20iOS%20frameworks%20with%20storyboards%2C%20nibs%20and%20resources&amp;url=http://localhost:2368/ios-frameworks-storyboards-swift/" onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
+                    <span class="hidden">Twitter</span>
+                </a>
+                <a class="icon-facebook" href="https://www.facebook.com/sharer/sharer.php?u=http://localhost:2368/ios-frameworks-storyboards-swift/" onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;">
+                    <span class="hidden">Facebook</span>
+                </a>
+                <a class="icon-google-plus" href="https://plus.google.com/share?url=http://localhost:2368/ios-frameworks-storyboards-swift/" onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;">
+                    <span class="hidden">Google+</span>
+                </a>
+            </section>
+
+
+        </footer>
+
+    </article>
+</main>
+
+<aside class="read-next">
+    <a class="read-next-story no-cover" href="../what-77-say-is-the-solution-to-more-user-signups/">
+        <section class="post">
+            <h2>What 77% Say Is the Solution to More User Signups</h2>
+            <p>It’s a jungle out there. Everyone from the world’s largest companies to students in their parents’ basement…</p>
+        </section>
+    </a>
+    <a class="read-next-story prev no-cover" href="../stepz-customer-story/">
+        <section class="post">
+            <h2>Customer Story: How Stepz saw a 10% increase in session frequency</h2>
+            <p>We live for our clients’ successes. There is no better feeling than when we can help them to achieve…</p>
+        </section>
+    </a>
+</aside>
+
+
+
+        <footer class="site-footer clearfix">
+            <section class="copyright"><a href="../">The Tapglue Blog</a> © 2016</section>
+            <section class="poweredby">Proudly published with <a href="https://ghost.org">Ghost</a></section>
+        </footer>
+
+    </div>
+
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.12.0.min.js"></script>
+    
+    <script type="text/javascript" src="../assets/js/jquery.fitvids.js?v=14d65a2715"></script>
+    <script type="text/javascript" src="../assets/js/index.js?v=14d65a2715"></script>
+
+</body>

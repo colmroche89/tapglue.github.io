@@ -1,0 +1,950 @@
+
+<head>
+    <meta charset="utf-8">
+
+    <title>Solving the Empty Room Problem</title>
+    <meta name="description" content="Solving the Empty Room Problem is important when launching a social feature. Tapglue suggests activities to solve it.">
+
+    <meta name="HandheldFriendly" content="True">
+    <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
+
+    <link rel="shortcut icon" href="../../favicon.ico">
+
+    <link rel="canonical" href="../index.html">
+    <meta name="referrer" content="no-referrer-when-downgrade">
+    
+    <meta property="og:site_name" content="The Tapglue Blog">
+    <meta property="og:type" content="article">
+    <meta property="og:title" content="Solving the Empty Room Problem">
+    <meta property="og:description" content="Solving the Empty Room Problem is important when launching a social feature. Tapglue suggests activities to solve it.">
+    <meta property="og:url" content="http://localhost:2368/empty-room-problem/">
+    <meta property="article:published_time" content="2015-07-22T13:51:00.000Z">
+    <meta property="article:modified_time" content="2015-11-10T17:47:18.000Z">
+    <meta property="article:tag" content="Product">
+    
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="Solving the Empty Room Problem">
+    <meta name="twitter:description" content="Solving the Empty Room Problem is important when launching a social feature. Tapglue suggests activities to solve it.">
+    <meta name="twitter:url" content="http://localhost:2368/empty-room-problem/">
+    <meta name="twitter:label1" content="Written by">
+    <meta name="twitter:data1" content="Norman Wiese">
+    <meta name="twitter:label2" content="Filed under">
+    <meta name="twitter:data2" content="Product">
+    <meta name="twitter:site" content="@tapglue">
+    
+    <script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "publisher": {
+        "@type": "Organization",
+        "name": "The Tapglue Blog",
+        "logo": "http://localhost:2368/ghost/img/ghosticon.jpg"
+    },
+    "author": {
+        "@type": "Person",
+        "name": "Norman Wiese",
+        "image": {
+            "@type": "ImageObject",
+            "url": "http://localhost:2368/content/images/2016/11/norm.jpg",
+            "width": 326,
+            "height": 326
+        },
+        "url": "http://localhost:2368/author/norman-wiese/",
+        "sameAs": [],
+        "description": "CEO at Tapglue"
+    },
+    "headline": "Solving the Empty Room Problem",
+    "url": "http://localhost:2368/empty-room-problem/",
+    "datePublished": "2015-07-22T13:51:00.000Z",
+    "dateModified": "2015-11-10T17:47:18.000Z",
+    "keywords": "Product",
+    "description": "Solving the Empty Room Problem is important when launching a social feature. Tapglue suggests activities to solve it.",
+    "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "http://localhost:2368"
+    }
+}
+    </script>
+
+    <meta name="generator" content="Ghost 0.11">
+    <link rel="alternate" type="application/rss+xml" title="The Tapglue Blog" href="../../rss/index.html">
+
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Merriweather:300,700,700italic,300italic%7COpen+Sans:700,600,400">
+    <style amp-custom>
+        /* ==========================================================================
+           Table of Contents
+           ========================================================================== */
+
+        /*
+
+            0. Normalize
+            1. General
+            2. Utilities
+            3. AMP Post
+            4. Footer
+
+        */
+
+        /* ==========================================================================
+           0. normalize.css v3.0.3 | MIT License | git.io/normalize | (minified)
+           ========================================================================== */
+
+        html {
+            font-family: sans-serif;
+
+            -ms-text-size-adjust: 100%;
+            -webkit-text-size-adjust: 100%;
+        }
+        body {
+            margin: 0;
+        }
+        article,
+        aside,
+        details,
+        figcaption,
+        figure,
+        footer,
+        header,
+        main,
+        menu,
+        nav,
+        section,
+        summary {
+            display: block;
+        }
+        audio,
+        canvas,
+        progress,
+        video {
+            display: inline-block;
+            vertical-align: baseline;
+        }
+        audio:not([controls]) {
+            display: none;
+            height: 0;
+        }
+        [hidden],
+        template {
+            display: none;
+        }
+        a {
+            background-color: transparent;
+        }
+        a:active,
+        a:hover {
+            outline: 0;
+        }
+        abbr[title] {
+            border-bottom: 1px dotted;
+        }
+        b,
+        strong {
+            font-weight: bold;
+        }
+        dfn {
+            font-style: italic;
+        }
+        h1 {
+            margin: 0.67em 0;
+            font-size: 2em;
+        }
+        mark {
+            background: #ff0;
+            color: #000;
+        }
+        small {
+            font-size: 80%;
+        }
+        sub,
+        sup {
+            position: relative;
+            vertical-align: baseline;
+            font-size: 75%;
+            line-height: 0;
+        }
+        sup {
+            top: -0.5em;
+        }
+        sub {
+            bottom: -0.25em;
+        }
+        img {
+            border: 0;
+        }
+        amp-img {
+            border: 0;
+        }
+        svg:not(:root) {
+            overflow: hidden;
+        }
+        figure {
+            margin: 1em 40px;
+        }
+        hr {
+            box-sizing: content-box;
+            height: 0;
+        }
+        pre {
+            overflow: auto;
+        }
+        code,
+        kbd,
+        pre,
+        samp {
+            font-family: monospace, monospace;
+            font-size: 1em;
+        }
+        button,
+        input,
+        optgroup,
+        select,
+        textarea {
+            margin: 0;
+            color: inherit;
+            font: inherit;
+        }
+        button {
+            overflow: visible;
+        }
+        button,
+        select {
+            text-transform: none;
+        }
+        button,
+        html input[type="button"],
+        input[type="reset"],
+        input[type="submit"] {
+            cursor: pointer;
+
+            -webkit-appearance: button;
+        }
+        button[disabled],
+        html input[disabled] {
+            cursor: default;
+        }
+        button::-moz-focus-inner,
+        input::-moz-focus-inner {
+            padding: 0;
+            border: 0;
+        }
+        input {
+            line-height: normal;
+        }
+        input[type="checkbox"],
+        input[type="radio"] {
+            box-sizing: border-box;
+            padding: 0;
+        }
+        input[type="number"]::-webkit-inner-spin-button,
+        input[type="number"]::-webkit-outer-spin-button {
+            height: auto;
+        }
+        input[type="search"] {
+            -webkit-appearance: textfield;
+        }
+        input[type="search"]::-webkit-search-cancel-button,
+        input[type="search"]::-webkit-search-decoration {
+            -webkit-appearance: none;
+        }
+        fieldset {
+            margin: 0 2px;
+            padding: 0.35em 0.625em 0.75em;
+            border: 1px solid #c0c0c0;
+        }
+        legend {
+            padding: 0;
+            border: 0;
+        }
+        textarea {
+            overflow: auto;
+        }
+        optgroup {
+            font-weight: bold;
+        }
+        table {
+            border-spacing: 0;
+            border-collapse: collapse;
+        }
+        td,
+        th {
+            padding: 0;
+        }
+
+
+        /* ==========================================================================
+           1. General - Setting up some base styles
+           ========================================================================== */
+
+        html {
+            max-height: 100%;
+            height: 100%;
+            font-size: 62.5%;
+
+            -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+        }
+
+        body {
+            max-height: 100%;
+            height: 100%;
+            color: #3a4145;
+            background: #f4f8fb;
+            letter-spacing: 0.01rem;
+            font-family: "Merriweather", serif;
+            font-size: 1.8rem;
+            line-height: 1.75em;
+            text-rendering: geometricPrecision;
+
+            -webkit-font-feature-settings: "kern" 1;
+            -moz-font-feature-settings: "kern" 1;
+            -o-font-feature-settings: "kern" 1;
+        }
+
+        ::-moz-selection {
+            background: #d6edff;
+        }
+
+        ::selection {
+            background: #d6edff;
+        }
+
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6 {
+            margin: 0 0 0.3em 0;
+            color: #2e2e2e;
+            font-family: "Open Sans", sans-serif;
+            line-height: 1.15em;
+            text-rendering: geometricPrecision;
+
+            -webkit-font-feature-settings: "dlig" 1, "liga" 1, "lnum" 1, "kern" 1;
+            -moz-font-feature-settings: "dlig" 1, "liga" 1, "lnum" 1, "kern" 1;
+            -o-font-feature-settings: "dlig" 1, "liga" 1, "lnum" 1, "kern" 1;
+        }
+
+        h1 {
+            text-indent: -2px;
+            letter-spacing: -1px;
+            font-size: 2.6rem;
+        }
+
+        h2 {
+            letter-spacing: 0;
+            font-size: 2.4rem;
+        }
+
+        h3 {
+            letter-spacing: -0.6px;
+            font-size: 2.1rem;
+        }
+
+        h4 {
+            font-size: 1.9rem;
+        }
+
+        h5 {
+            font-size: 1.8rem;
+        }
+
+        h6 {
+            font-size: 1.8rem;
+        }
+
+        a {
+            color: #4a4a4a;
+        }
+
+        a:hover {
+            color: #111;
+        }
+
+        p,
+        ul,
+        ol,
+        dl {
+            margin: 0 0 2.5rem 0;
+            font-size: 1.5rem;
+            text-rendering: geometricPrecision;
+
+            -webkit-font-feature-settings: "liga" 1, "onum" 1, "kern" 1;
+            -moz-font-feature-settings: "liga" 1, "onum" 1, "kern" 1;
+            -o-font-feature-settings: "liga" 1, "onum" 1, "kern" 1;
+        }
+
+        ol,
+        ul {
+            padding-left: 2em;
+        }
+
+        ol ol,
+        ul ul,
+        ul ol,
+        ol ul {
+            margin: 0 0 0.4em 0;
+            padding-left: 2em;
+        }
+
+        dl dt {
+            float: left;
+            clear: left;
+            overflow: hidden;
+            margin-bottom: 1em;
+            width: 180px;
+            text-align: right;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+            font-weight: 700;
+        }
+
+        dl dd {
+            margin-bottom: 1em;
+            margin-left: 200px;
+        }
+
+        li {
+            margin: 0.4em 0;
+        }
+
+        li li {
+            margin: 0;
+        }
+
+        hr {
+            display: block;
+            margin: 1.75em 0;
+            padding: 0;
+            height: 1px;
+            border: 0;
+            border-top: #efefef 1px solid;
+        }
+
+        blockquote {
+            box-sizing: border-box;
+            margin: 1.75em 0 1.75em 0;
+            padding: 0 0 0 1.75em;
+            border-left: #4a4a4a 0.4em solid;
+
+            -moz-box-sizing: border-box;
+        }
+
+        blockquote p {
+            margin: 0.8em 0;
+            font-style: italic;
+        }
+
+        blockquote small {
+            display: inline-block;
+            margin: 0.8em 0 0.8em 1.5em;
+            color: #ccc;
+            font-size: 0.9em;
+        }
+
+        blockquote small:before {
+            content: "\2014 \00A0";
+        }
+
+        blockquote cite {
+            font-weight: 700;
+        }
+
+        blockquote cite a {
+            font-weight: normal;
+        }
+
+        mark {
+            background-color: #fdffb6;
+        }
+
+        code,
+        tt {
+            padding: 1px 3px;
+            border: #e3edf3 1px solid;
+            background: #f7fafb;
+            border-radius: 2px;
+            white-space: pre-wrap;
+            font-family: Inconsolata, monospace, sans-serif;
+            font-size: 0.85em;
+            font-feature-settings: "liga" 0;
+
+            -webkit-font-feature-settings: "liga" 0;
+            -moz-font-feature-settings: "liga" 0;
+        }
+
+        pre {
+            overflow: auto;
+            box-sizing: border-box;
+            margin: 0 0 1.75em 0;
+            padding: 10px;
+            width: 100%;
+            border: #e3edf3 1px solid;
+            background: #f7fafb;
+            border-radius: 3px;
+            white-space: pre;
+            font-family: Inconsolata, monospace, sans-serif;
+            font-size: 0.9em;
+
+            -moz-box-sizing: border-box;
+        }
+
+        pre code,
+        pre tt {
+            padding: 0;
+            border: none;
+            background: transparent;
+            white-space: pre-wrap;
+            font-size: inherit;
+        }
+
+        kbd {
+            display: inline-block;
+            margin-bottom: 0.4em;
+            padding: 1px 8px;
+            border: #ccc 1px solid;
+            background: #f4f4f4;
+            border-radius: 4px;
+            box-shadow: 0 1px 0 rgba(0, 0, 0, 0.2),
+            0 1px 0 0 #fff inset;
+            color: #666;
+            text-shadow: #fff 0 1px 0;
+            font-size: 0.9em;
+            font-weight: 700;
+        }
+
+        table {
+            box-sizing: border-box;
+            margin: 1.75em 0;
+            max-width: 100%;
+            width: 100%;
+            background-color: transparent;
+
+            -moz-box-sizing: border-box;
+        }
+
+        table th,
+        table td {
+            padding: 8px;
+            border-top: #efefef 1px solid;
+            vertical-align: top;
+            text-align: left;
+            line-height: 20px;
+        }
+
+        table th {
+            color: #000;
+        }
+
+        table caption + thead tr:first-child th,
+        table caption + thead tr:first-child td,
+        table colgroup + thead tr:first-child th,
+        table colgroup + thead tr:first-child td,
+        table thead:first-child tr:first-child th,
+        table thead:first-child tr:first-child td {
+            border-top: 0;
+        }
+
+        table tbody + tbody {
+            border-top: #efefef 2px solid;
+        }
+
+        table table table {
+            background-color: #fff;
+        }
+
+        table tbody > tr:nth-child(odd) > td,
+        table tbody > tr:nth-child(odd) > th {
+            background-color: #f6f6f6;
+        }
+
+        table.plain tbody > tr:nth-child(odd) > td,
+        table.plain tbody > tr:nth-child(odd) > th {
+            background: transparent;
+        }
+
+        iframe,
+        amp-iframe,
+        .fluid-width-video-wrapper {
+            display: block;
+            margin: 1.75em 0;
+        }
+
+        /* When a video is inside the fitvids wrapper, drop the
+        margin on the iframe, cause it breaks stuff. */
+        .fluid-width-video-wrapper iframe,
+        .fluid-width-video-wrapper amp-iframe {
+            margin: 0;
+        }
+
+        textarea,
+        select,
+        input {
+            margin: 0 0 5px 0;
+            padding: 6px 9px;
+            width: 260px;
+            outline: 0;
+            border: #e7eef2 1px solid;
+            background: #fff;
+            border-radius: 4px;
+            box-shadow: none;
+            font-family: "Open Sans", sans-serif;
+            font-size: 1.6rem;
+            line-height: 1.4em;
+            font-weight: 100;
+
+            -webkit-appearance: none;
+        }
+
+        textarea {
+            min-width: 250px;
+            min-height: 80px;
+            max-width: 340px;
+            width: 100%;
+            height: auto;
+        }
+
+        input[type="text"]:focus,
+        input[type="email"]:focus,
+        input[type="search"]:focus,
+        input[type="tel"]:focus,
+        input[type="url"]:focus,
+        input[type="password"]:focus,
+        input[type="number"]:focus,
+        input[type="date"]:focus,
+        input[type="month"]:focus,
+        input[type="week"]:focus,
+        input[type="time"]:focus,
+        input[type="datetime"]:focus,
+        input[type="datetime-local"]:focus,
+        textarea:focus {
+            outline: none;
+            outline-width: 0;
+            border: #bbc7cc 1px solid;
+            background: #fff;
+        }
+
+        select {
+            width: 270px;
+            height: 30px;
+            line-height: 30px;
+        }
+
+        /* ==========================================================================
+           2. Utilities
+           ========================================================================== */
+
+        /* Clears shit */
+        .clearfix:before,
+        .clearfix:after {
+            content: " ";
+            display: table;
+        }
+        .clearfix:after {
+            clear: both;
+        }
+        .clearfix {
+            zoom: 1;
+        }
+
+        /* ==========================================================================
+           3. AMP Post
+           ========================================================================== */
+
+
+
+        .main-header {
+            position: relative;
+            display: table;
+            overflow: hidden;
+            box-sizing: border-box;
+            width: 100%;
+            height: 50px;
+            background: #5ba4e5 no-repeat center center;
+            background-size: cover;
+            text-align: left;
+
+            -webkit-box-sizing: border-box;
+            -moz-box-sizing: border-box;
+        }
+
+        .content {
+            background: #fff;
+            padding-top: 15px;
+        }
+        .blog-title,
+        .content {
+            margin: auto;
+            max-width: 600px;
+        }
+
+        .blog-title a {
+            display: block;
+            padding-right: 16px;
+            padding-left: 16px;
+            height: 50px;
+            color: #fff;
+            text-decoration: none;
+            font-family: "Open Sans", sans-serif;
+            font-size: 16px;
+            line-height: 50px;
+            font-weight: 600;
+        }
+
+        .post {
+            position: relative;
+            margin-top: 0;
+            margin-right: 16px;
+            margin-left: 16px;
+            padding-bottom: 0;
+            max-width: 100%;
+            border-bottom: #ebf2f6 1px solid;
+            word-wrap: break-word;
+            font-size: 0.95em;
+            line-height: 1.65em;
+        }
+
+        .post-header {
+            margin-bottom: 1rem;
+        }
+
+        .post-title {
+            margin-bottom: 0;
+        }
+
+        .post-title a {
+            text-decoration: none;
+        }
+
+        .post-meta {
+            display: block;
+            margin: 3px 0 0 0;
+            color: #9eabb3;
+            font-family: "Open Sans", sans-serif;
+            font-size: 1.3rem;
+            line-height: 2.2rem;
+        }
+
+        .post-meta a {
+            color: #9eabb3;
+            text-decoration: none;
+        }
+
+        .post-meta a:hover {
+            text-decoration: underline;
+        }
+
+        .post-meta .author {
+            margin: 0;
+            font-size: 1.3rem;
+            line-height: 1.3em;
+        }
+
+        .post-date {
+            display: inline-block;
+            text-transform: uppercase;
+            white-space: nowrap;
+            font-size: 1.2rem;
+            line-height: 1.2em;
+        }
+
+        .post-image {
+            margin: 0;
+            padding-top: 3rem;
+            padding-bottom: 30px;
+            border-top: 1px #E8E8E8 solid;
+        }
+
+        /* Keep images centered, and allow images wider than the main
+           text column to break out. */
+        .post-content amp-img,
+        .post-content amp-anim {
+            /* Centers an image by (1) pushing its left edge to the
+               center of its container and (2) shifting the entire image
+               in the opposite direction by half its own width.
+               Works for images that are larger than their containers. */
+            position: relative;
+            left: 50%;
+            display: block;
+            padding: 0;
+            min-width: 0;
+            max-width: 112%; /* fallback when calc doesn't work */
+            width: calc(100% + 32px); /* expand with to image + margins */
+            height: auto;
+            transform: translateX(-50%);
+
+            -webkit-transform: translateX(-50%); /* for Safari and iOS */
+            -ms-transform: translateX(-50%); /* for IE9 */
+        }
+
+        .footnotes {
+            font-size: 1.3rem;
+            line-height: 1.6em;
+            font-style: italic;
+        }
+
+        .footnotes li {
+            margin: 0.6rem 0;
+        }
+
+        .footnotes p {
+            margin: 0;
+        }
+
+        .footnotes p a:last-child {
+            text-decoration: none;
+        }
+
+        /* ==========================================================================
+           4. Footer - The bottom the AMP Post
+           ========================================================================== */
+
+        .site-footer {
+            position: relative;
+            margin: 0 auto 20px auto;
+            padding: 1rem 15px;
+            max-width: 600px;
+            color: rgba(0,0,0,0.5);
+            font-family: "Open Sans", sans-serif;
+            font-size: 1.1rem;
+            line-height: 1.75em;
+        }
+
+        .site-footer a {
+            color: rgba(0,0,0,0.5);
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .site-footer a:hover {
+            border-bottom: #bbc7cc 1px solid;
+        }
+
+        .poweredby {
+            display: block;
+            float: right;
+            width: 45%;
+            text-align: right;
+        }
+
+        .copyright {
+            display: block;
+            float: left;
+            width: 45%;
+        }
+    </style>
+
+    <style amp-boilerplate>body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}</style><noscript><style amp-boilerplate>body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style></noscript>
+    <script async src="https://cdn.ampproject.org/v0.js"></script>
+
+    
+
+</head>
+
+<body class="amp-template">
+    <header class="main-header">
+        <nav class="blog-title">
+            <a href="../../">The Tapglue Blog</a>
+        </nav>
+    </header>
+
+    <main class="content" role="main">
+        <article class="post">
+
+            <header class="post-header">
+                <h1 class="post-title">Solving the Empty Room Problem</h1>
+                <section class="post-meta">
+                    <p class="author">by <a href="../../author/norman-wiese/">Norman Wiese</a></p>
+                    <time class="post-date" datetime="2015-07-22">2015-07-22</time>
+                </section>
+            </header>
+            <section class="post-content">
+
+                <p></p>
+
+<p>Every new product or feature that is launched based on a community of users has the same chicken or egg problem. As long as there are not enough people to fuel the community, it will be difficult to attract and retain new users for this product or feature as the benefit of the community is small. We call this the Empty Room Problem. </p>
+
+<p>Once the community gets bigger and engagement increases, it will become much easier to grow - the bigger the community, the bigger the value for each individual. This momentum is not easy to gain, but, once achieved, it can lead to exponential growth.</p>
+
+<p>It's likely you will face this challenge when launching a social activity feed. It is one of the biggest concerns of our customers when we talk about adding a social layer to their app. There are several things you can do in order to foster adoption once a new user signs up for your app and starts looking into the activity feed. In this post, I’ll outline some of them and explain why a dedicated plan to gain initial traction for your activity feed is so important.  </p>
+
+<h2 id="whyisitimportanttothinkabouttheemptyroomproblem">Why is it important to think about the Empty Room Problem?</h2>
+
+<p>So, you’re actively looking into launching a social activity feed or another social feature. If you think through the whole user flow, you might start having concerns that each user's number of connections will be too low to bring life into the feed. Great thought! It is extremely important to think about this early on, and - since you’ll be launching this from scratch - chances are indeed high that the social graph in your product is rather small for each user.  </p>
+
+<p>This doesn’t mean you shouldn’t implement the feature. Neither does it mean you should just build and „hope they will come“. It means you should work out a plan of at least 3 or 4 actions that can help to overcome the initial lack of traction and engagement. Otherwise, there is a high risk that users will bounce right off again and will not see the activity feed as valuable as it can be.</p>
+
+<p>Ultimately, this would lead to the evaluation that a social activity was not the right choice for your product. Most of the time, it is about a poor execution and just not having a plan to overcome the Empty Room Problem, though. So, I recommend not to just cross fingers that users will come once you launch it. Work out a detailed plan, with activities that will drive adoption.</p>
+
+<p>The following list of actions shall help you to figure out how to best launch your activity feed.   </p>
+
+<h2 id="whatcanyoudoabouttheemptyroomproblem">What can you do about the Empty Room Problem?</h2>
+
+<h4 id="measureadoptionandconstantlyoptimizeafterlaunch">Measure adoption and constantly optimize after launch</h4>
+
+<p>In order to be able to evaluate the performance of your activity feed and your activities promoting it, you need to have a way to measure user adoption. If you don’t have an exact idea on the share of users visiting the activity feed, how often they visit it, how much time they spend, which type of feed entry they click on, etc., you cannot evaluate the success of the feature properly. That’s why it’s important to have a mobile analytics solution in place, and track the in-app events that are relevant to the performance of your activity feed.   </p>
+
+<p>Having proper analytics implemented puts you in the position to constantly measure the most important metrics around your activity feed. From here you can start tweaking your product and marketing to improve the adoption of your activity feed. I recommend setting up a simple one-page report for this, which you look at on a weekly or bi-weekly basis.  </p>
+
+<h4 id="integrateonboardingfeedentries">Integrate onboarding feed entries</h4>
+
+<p>Trying out a new feature only to find out you cannot use it is frustrating. If a user opens your new activity feed but does not have any friends in your app yet, you should avoid displaying an empty feed.  </p>
+
+<p>Make use of the user’s interest and show him the great benefits of your new feature. Implement some pre-defined feed entries that show what the feed can look like once filled with the user’s friends. Communicate how awesome this feed is for content discovery and to experience your product together with others.</p>
+
+<h4 id="encourageuserstoinvitefriends">Encourage users to invite friends</h4>
+
+<p>Potentially, for the first time ever, users finally have a proper reason to invite others to your product. Adding friends in your app now provides the user with an immediate benefit - an experience that cannot be achieved without such social features. It’s the basis for a viral user growth machine.</p>
+
+<p>If you communicate the value of your new social activity feed well and the user gets it, it’s the perfect moment to say "Hey, this is much more fun with your friends. Invite some of them!“. So, designing a great "invite friends“ flow, instead of showing an empty feed, will not only bring you more users but also improve the adoption of your new social feature.</p>
+
+<h4 id="notifyuserswhentheirfriendsjoin">Notify users when their friends join</h4>
+
+<p>Once certain users had the experience that your activity feed was rather empty, clearly, they will not have experienced the real value behind it. It should be of high priority for you to achieve this „experienced value“ for as many users as possible. <br>
+Naturally your most curious users will experience the Empty Room Problem the most. That’s the hard life of being an early adopter. This does not mean that their social graph in your app won’t grow over time, though. Even if the first experience wasn’t the best one, you should remind those users about your activity feed from time to time. The perfect reason to do this is if someone in the user’s network has started using your app. Set up some sort of notification for that (e. g., an entry in the news feed, a push notification, or an email).</p>
+
+<h4 id="suggestorautofollowfeaturedusers">Suggest or auto-follow featured users</h4>
+
+<p>If your community / network will be based on the follower model, which means users can discover other users’ profile publicly and start following them, you should definitely consider working with featured users. These users would be displayed to every new user starting to use your activity feed. You can either just suggest them or create a follower connection for them by default (with the ability to unfollow seamlessly).</p>
+
+<p>There are various ways to gather a group of featured users to display to new members in your community. You could use members of your team, identify heavy users through engagement data, or manually pick community ambassadors for your product. The goal is to provide new users with interesting people they can follow to benefit from your social news or activity feed from the first session.</p>
+
+<h4 id="createsmartentrypointsintothefeed">Create smart entry points into the feed</h4>
+
+<p>How should users experience your awesome new feature if they don’t know about it? So, tell them about it at the right places. Think about „secondary entry points“ besides the main one which might be in your tab bar or side drawer navigation. Here are some ideas for those secondary entry points:  </p>
+
+<ul>
+<li>dialog when a feed entry is triggered (like, recommend, check-in, etc.) </li>
+<li>pop-up message that appears occasionally</li>
+<li>in-app banner advertising your new feature </li>
+</ul>
+
+<h4 id="broadcastproductnotificationsinthefeed">Broadcast product notifications in the feed</h4>
+
+<p>Integrating a social activity feed does not only create a community in your product, it also gives you a new real-time communication channel to your users. Besides letting your user network fill this feed, you should also consider to do this on your own. Thinking about the social activity feed also as a place for notifications, you could broadcast messages about new app versions and features, feature certain pieces of content, etc. Those notifications can be triggered manually or automatically from your system. In both cases, they will bring life to your activity feed, which means users will perceive it more valuable.   </p>
+
+<h4 id="createandexecuteamarketingplanforthelaunch">Create and execute a marketing plan for the launch</h4>
+
+<p>Adding a social layer to your app is just great news. You should not forget to have proper plan for external communication in place. This should involve your own channels such as your blog, twitter, or the app store update messages, as well as external channels such as PR and advertising. Making a social transition in your product experience should be considered a major iteration of your product, and you should plan your communication accordingly.   </p>
+
+<h2 id="conclusions">Conclusions</h2>
+
+<p>Not having a solid plan to overcome the Empty Room Problem when launching a social product from scratch, or when implementing a social activity feed, can be a high risk for its success. No matter how well you design and implement it, if it does not see relevant user traction, chances are high that it won’t be successful. That’s why thinking about this challenge has to be an integral part of your launch strategy. However, there are good practices that you can take up to minimize the risk that your activity feed will lack adoption.   </p>
+
+<p>Thinking carefully about the new user experience is crucial. What will people see in the activity feed if they don’t have any connections in your app yet? Will you show a frustratingly empty state, or a compelling onboarding flow with built-in feed entries? Will you leave it up to a user's imagination what a lively feed will look like or will you fill it through recommended users to follow? Will you have her leave frustrated or encourage her to invite some friends?   </p>
+
+<p>There are plenty of things you can do to overcome the Empty Room Problem. And this is what the most successful social products out there have done, or still do. Success with communities does not happen randomly. It is always the result of a well-executed product strategy. Therefore, I highly recommend thinking about the launch strategy of your social activity feed (or other community features) from the moment you plan to implement it.</p>
+
+<p><em>You liked this article? Follow us on <a href="http://www.twitter.com/tapglue/">Twitter</a> and don't miss out on new stuff!</em></p>
+
+<p><a href="https://www.flickr.com/photos/drocpsu/8546730021/in/photolist-e2fe5a-9DhFqm-aBw7vt-9zVfS-7woV71-7ref1f-6W5LPe-bp6f8J-7rp8Wi-qJit7j-dMo44w-kQyXQ6-ouuc4W-gF7RHY-a2fsy7-3gEWNx-kT3ji6-6htDJ1-a9wjRM-qiuKFe-fz3bSd-sjpNa-5YqdiZ-6sqgFQ-82EGc1-6qQzF8-7LG6Nw-5CXydp-j2kBqK-5f9Fxi-jCeatj-TctdH-kjQmLs-snsxQ2-epZFYP-CETDW-8puoRd-9H1si7-egP4qH-zLV8Y-8uyeyS-5mq2TY-apPqcz-65pmUG-gptEr-oakQc-oNCAry-4ctt4U-6gnXoB-7EFp1u">Featured Image</a> by drocpsu (<a href="http://creativecommons.org/licenses/by/2.0/">CC BY 2.0</a>)</p>
+
+            </section>
+
+        </article>
+    </main>
+    <footer class="site-footer clearfix">
+        <section class="copyright"><a href="../../">The Tapglue Blog</a> © 2016</section>
+        <section class="poweredby">Proudly published with <a href="https://ghost.org">Ghost</a></section>
+    </footer>
+</body>
