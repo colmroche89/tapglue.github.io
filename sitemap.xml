@@ -4,58 +4,50 @@
       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
       xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
 
 <url>
   <loc>https://www.tapglue.com/</loc>
-  <lastmod>2015-06-27T20:02:40+00:00</lastmod>
-</url>
-<url>
-  <loc>https://www.tapglue.com/news-feed/</loc>
-  <lastmod>2015-06-27T20:02:40+00:00</lastmod>
-</url>
-<url>
-  <loc>https://www.tapglue.com/user-profiles/</loc>
-  <lastmod>2015-06-27T20:02:40+00:00</lastmod>
-</url>
-<url>
-  <loc>https://www.tapglue.com/social-graph/</loc>
-  <lastmod>2015-06-27T20:02:40+00:00</lastmod>
-</url>
-<url>
-  <loc>https://www.tapglue.com/blog/</loc>
+  <lastmod>2016-11-08T09:13:15+00:00</lastmod>
 </url>
 <url>
   <loc>https://www.tapglue.com/about-us/</loc>
-  <lastmod>2015-06-27T20:02:40+00:00</lastmod>
+  <lastmod>2016-11-08T09:13:15+00:00</lastmod>
 </url>
 <url>
-  <loc>https://www.tapglue.com/blog/tapglue-ios-sdk/</loc>
+  <loc>https://www.tapglue.com/users/</loc>
+  <lastmod>2016-11-08T09:13:15+00:00</lastmod>
 </url>
 <url>
-  <loc>https://www.tapglue.com/blog/author/onur/</loc>
+  <loc>https://www.tapglue.com/news-feed/</loc>
+  <lastmod>2016-11-08T09:13:15+00:00</lastmod>
 </url>
 <url>
-  <loc>https://www.tapglue.com/blog/tag/tapglue-news/</loc>
+  <loc>https://www.tapglue.com/connections/</loc>
+  <lastmod>2016-11-08T09:13:15+00:00</lastmod>
 </url>
 <url>
-  <loc>https://www.tapglue.com/blog/tag/engineering/</loc>
+  <loc>https://www.tapglue.com/elements/</loc>
+  <lastmod>2016-11-08T09:13:15+00:00</lastmod>
 </url>
 <url>
-  <loc>https://www.tapglue.com/blog/10-top-mobile-influencers/</loc>
+  <loc>https://www.tapglue.com/the-social-advantage/</loc>
+  <lastmod>2016-11-08T09:13:15+00:00</lastmod>
 </url>
 <url>
-  <loc>https://www.tapglue.com/blog/author/norman-wiese/</loc>
+  <loc>https://www.tapglue.com/news-social-concept/</loc>
+  <lastmod>2016-11-08T09:13:15+00:00</lastmod>
 </url>
 <url>
-  <loc>https://www.tapglue.com/blog/tag/product/</loc>
+  <loc>https://www.tapglue.com/terms/</loc>
+  <lastmod>2016-11-08T09:13:15+00:00</lastmod>
 </url>
 <url>
-  <loc>https://www.tapglue.com/blog/why-your-mobile-app-needs-a-social-activity-feed/</loc>
+  <loc>https://www.tapglue.com/sla/</loc>
+  <lastmod>2016-11-08T09:13:15+00:00</lastmod>
 </url>
 <url>
-  <loc>https://www.tapglue.com/blog/tag/growth/</loc>
-</url>
-<url>
-  <loc>https://www.tapglue.com/blog/why-we-are-building-tapglue/</loc>
+  <loc>https://www.tapglue.com/imprint/</loc>
+  <lastmod>2016-11-08T09:13:15+00:00</lastmod>
 </url>
 </urlset>
